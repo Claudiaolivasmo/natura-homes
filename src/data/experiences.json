@@ -1,0 +1,310 @@
+[
+  {
+    "id": "volcano-expedition-national-park",
+    "slug": "volcano-expedition-national-park",
+    "published": true,
+    "featured": true,
+    "category": "adventure-nature",
+    "title": { "en": "Arenal Volcano Expedition", "es": "Expedición en el Volcán Arenal" },
+    "summary": {
+      "en": "Trails, viewpoints and guided outings around Arenal, planned around your group and pace.",
+      "es": "Senderos, miradores y salidas guiadas alrededor del Arenal, a la medida de su grupo y su ritmo."
+    },
+    "description": {
+      "en": "We help you choose the right way to experience Arenal for your group, then handle the arrangements with guides and operators we work with directly.",
+      "es": "Le ayudamos a elegir la mejor forma de conocer el Arenal según su grupo y nos encargamos de coordinar con guías y operadores de confianza."
+    },
+    "duration": null,
+    "location": "Arenal Volcano National Park area",
+    "inclusions": [],
+    "exclusions": [],
+    "price": null,
+    "availability": null,
+    "images": [
+      {
+        "src": "/images/experiences/volcano-expedition-national-park/volcano-view.webp",
+        "alt": {
+          "en": "View of Arenal Volcano in Costa Rica",
+          "es": "Vista del Volcán Arenal en Costa Rica"
+        }
+      }
+    ],
+    "videos": [],
+    "seo": null
+  },
+  {
+    "id": "wellness",
+    "slug": "wellness",
+    "published": true,
+    "featured": true,
+    "category": "wellness",
+    "title": {
+      "en": "Spa & Massage Treatments",
+      "es": "Spa y Tratamientos de Masaje"
+    },
+    "summary": {
+      "en": "Relaxing massages, rejuvenating facials and personalized spa treatments, thoughtfully arranged during your stay.",
+      "es": "Masajes relajantes, tratamientos faciales y servicios de spa personalizados, cuidadosamente coordinados durante su estadía."
+    },
+    "description": {
+      "en": "Take a moment to slow down and restore your sense of well-being in La Fortuna. Discover a curated selection of therapeutic massages, hot stone treatments, aromatherapy, facials and spa rituals provided by Spa La Palmera. Whether you're looking to release tension, enjoy a moment of relaxation or share a wellness experience with someone special, Natura Homes will help coordinate your preferred treatment and schedule.",
+      "es": "Dedique un momento a descansar y renovar su bienestar durante su visita a La Fortuna. Descubra una selección de masajes terapéuticos, tratamientos con piedras calientes, aromaterapia, faciales y rituales de spa ofrecidos por Spa La Palmera. Ya sea que desee aliviar tensiones, disfrutar de un momento de relajación o compartir una experiencia especial, Natura Homes le ayudará a coordinar el tratamiento y horario de su preferencia."
+    },
+    "duration": null,
+    "location": "La Fortuna, Costa Rica",
+    "provider": {
+      "name": "Spa La Palmera",
+      "bookingMode": "request"
+    },
+    "inclusions": [],
+    "exclusions": [],
+    "price": null,
+    "pricing": {
+      "type": "per_option",
+      "currency": "USD",
+      "options": [
+        { "id": "therapeutic-hot-stones-mini-facial", "name": { "en": "Therapeutic Massage with Hot Stones & Mini Facial", "es": "Masaje Terapéutico con Piedras Calientes y Mini Facial" }, "duration": { "en": "60 minutes", "es": "60 minutos" }, "amount": 65, "confirmed": true },
+        { "id": "deep-tissue-60", "name": { "en": "Deep Tissue Massage", "es": "Masaje de Tejido Profundo" }, "duration": { "en": "60 minutes", "es": "60 minutos" }, "amount": 80, "confirmed": true },
+        { "id": "hot-stone-60", "name": { "en": "Hot Stone Massage", "es": "Masaje con Piedras Calientes" }, "duration": { "en": "60 minutes", "es": "60 minutos" }, "amount": 70, "confirmed": true },
+        { "id": "lymphatic-drainage", "name": { "en": "Lymphatic Drainage Massage", "es": "Masaje de Drenaje Linfático" }, "duration": { "en": "60 minutes", "es": "60 minutos" }, "amount": 70, "confirmed": true },
+        { "id": "aromatherapy", "name": { "en": "Aromatherapy Massage", "es": "Masaje de Aromaterapia" }, "duration": { "en": "60 minutes", "es": "60 minutos" }, "amount": 75, "confirmed": true },
+        { "id": "reflexology", "name": { "en": "Reflexology", "es": "Reflexología" }, "duration": { "en": "70 minutes", "es": "70 minutos" }, "amount": 80, "confirmed": true },
+        { "id": "couples-therapeutic-hot-stones", "name": { "en": "Couples Therapeutic Massage with Hot Stones", "es": "Masaje Terapéutico para Parejas con Piedras Calientes" }, "duration": { "en": "60 minutes", "es": "60 minutos" }, "amount": 90, "confirmed": false },
+        { "id": "spa-pedicure", "name": { "en": "Spa Pedicure", "es": "Pedicura Spa" }, "duration": { "en": "60 minutes", "es": "60 minutos" }, "amount": 55, "confirmed": true },
+        { "id": "spa-manicure", "name": { "en": "Spa Manicure", "es": "Manicura Spa" }, "duration": { "en": "60 minutes", "es": "60 minutos" }, "amount": 45, "confirmed": true },
+        { "id": "gel-polish-manicure", "name": { "en": "Gel Polish Manicure", "es": "Manicura con Esmalte en Gel" }, "duration": { "en": "60 minutes", "es": "60 minutos" }, "amount": 55, "confirmed": true },
+        { "id": "therapeutic-massage-90", "name": { "en": "Therapeutic Massage", "es": "Masaje Terapéutico" }, "duration": { "en": "90 minutes", "es": "90 minutos" }, "amount": 75, "confirmed": true },
+        { "id": "deep-facial", "name": { "en": "Deep Facial", "es": "Limpieza Facial Profunda" }, "duration": { "en": "60 minutes", "es": "60 minutos" }, "amount": 60, "confirmed": true },
+        { "id": "massage-body-wrap-facial", "name": { "en": "Relaxing or Therapeutic Massage + Body Wrap + Facial", "es": "Masaje Relajante o Terapéutico + Envoltura Corporal + Facial" }, "duration": { "en": "120 minutes", "es": "120 minutos" }, "amount": 135, "confirmed": true },
+        { "id": "deep-tissue-90", "name": { "en": "Deep Tissue Massage", "es": "Masaje de Tejido Profundo" }, "duration": { "en": "90 minutes", "es": "90 minutos" }, "amount": 95, "confirmed": true }
+      ]
+    },
+    "availability": null,
+    "images": [
+      {
+        "src": "/images/experiences/wellness/spa-massage.webp",
+        "alt": {
+          "en": "Relaxing spa massage treatment in La Fortuna, Costa Rica",
+          "es": "Tratamiento de masaje relajante en un spa de La Fortuna, Costa Rica"
+        }
+      }
+    ],
+    "videos": [],
+    "seo": null
+  },
+  {
+    "id": "private-chef",
+    "slug": "private-chef",
+    "published": true,
+    "featured": true,
+    "category": "private-dining",
+    "title": { "en": "Private Chef", "es": "Chef Privado" },
+    "summary": {
+      "en": "Breakfasts, family dinners or a celebration meal prepared in your home.",
+      "es": "Desayunos, cenas en familia o una comida especial preparada en su casa."
+    },
+    "description": {
+      "en": "Share your preferences and any dietary needs. We coordinate the menu, shopping and service so you can stay in.",
+      "es": "Comparta sus preferencias y cualquier restricción alimentaria. Coordinamos el menú, las compras y el servicio para que pueda disfrutar sin salir."
+    },
+    "duration": null,
+    "location": "At your residence",
+    "inclusions": [],
+    "exclusions": [],
+    "price": null,
+    "availability": null,
+      "images": [
+      {
+        "src": "/images/experiences/private-chef/private-dinning.webp",
+        "alt": {
+          "en": "Private chef preparing a meal in a vacation rental in La Fortuna, Costa Rica",
+          "es": "Chef privado preparando una comida en un alojamiento vacacional en La Fortuna, Costa Rica"
+        }
+      },
+      {
+        "src": "/images/experiences/private-chef/charcuterie-board.webp",
+        "alt": {
+          "en": "Charcuterie board prepared by a private chef in a vacation rental in La Fortuna, Costa Rica",
+          "es": "Tabla de charcutería preparada por un chef privado en un alojamiento vacacional en La Fortuna, Costa Rica"
+        }
+      },
+      {
+        "src": "/images/experiences/private-chef/cocktails.webp",
+        "alt": {
+          "en": "Private chef preparing cocktails in a vacation rental in La Fortuna, Costa Rica",
+          "es": "Chef privado preparando cócteles en un alojamiento vacacional en La Fortuna, Costa Rica"
+        }
+      },
+      {
+        "src": "/images/experiences/private-chef/floating-breakfast-tray.webp",
+        "alt": {
+          "en": "Floating breakfast tray for a private chef experience in a vacation rental in La Fortuna, Costa Rica",
+          "es": "Tray de desayuno flotante para una experiencia con chef privado en un alojamiento vacacional en La Fortuna, Costa Rica"
+        }
+      },
+      {
+        "src": "/images/experiences/private-chef/family-dinner.webp",
+        "alt": {
+          "en": "Family dinner prepared by a private chef in a vacation rental in La Fortuna, Costa Rica",
+          "es": "Cena familiar preparada por un chef privado en un alojamiento vacacional en La Fortuna, Costa Rica"
+        }
+      }
+    ],
+    "videos": [],
+    "seo": null
+  },
+  {
+    "id": "private-transportation",
+    "slug": "private-transportation",
+    "published": true,
+    "featured": true,
+    "category": "transportation",
+    "title": { "en": "Private Transportation", "es": "Transporte Privado" },
+    "summary": {
+      "en": "Airport transfers and day trips with reliable drivers.",
+      "es": "Traslados al aeropuerto y viajes de un día con conductores de confianza."
+    },
+    "description": {
+      "en": "We schedule your arrival and departure transfers and any trips in between, matched to your flight times and group size.",
+      "es": "Programamos sus traslados de llegada y salida, y cualquier viaje durante su estadía, según sus vuelos y el tamaño de su grupo."
+    },
+    "duration": null,
+    "location": null,
+    "inclusions": [],
+    "exclusions": [],
+    "price": null,
+    "availability": null,
+    "images": [
+      {
+        "src": "/images/experiences/private-transportation/van.webp",
+        "alt": {
+          "en": "Private transportation van in La Fortuna, Costa Rica",
+          "es": "Van de transporte privado en La Fortuna, Costa Rica" 
+        }
+      },
+      {
+        "src": "/images/experiences/private-transportation/van-2.webp",
+        "alt": {
+          "en": "Interior of a private transportation van in La Fortuna, Costa Rica",
+          "es": "Interior de una van de transporte privado en La Fortuna, Costa Rica" 
+        }
+      }
+    ],
+    "videos": [],
+    "seo": null
+  },
+  {
+  "id": "nocturnal-wildlife-tour",
+  "slug": "nocturnal-wildlife-tour",
+  "published": true,
+  "featured": true,
+  "category": "adventure-nature",
+  "title": {
+    "en": "Nocturnal Wildlife Tour",
+    "es": "Tour Nocturno de Vida Silvestre"
+  },
+  "summary": {
+    "en": "Discover the rainforest after dark and encounter the fascinating wildlife that comes alive at night.",
+    "es": "Descubre la selva tropical después del atardecer y conoce la fascinante vida silvestre que despierta durante la noche."
+  },
+  "description": {
+    "en": "Experience a different side of Costa Rica's rainforest on a guided nocturnal wildlife walk. As daylight fades, the forest transforms into a world of remarkable sounds, colors and movement. Accompanied by a knowledgeable local guide, explore natural habitats while searching for tree frogs, insects, sleeping birds and other nocturnal creatures. Every walk offers a unique opportunity to appreciate the extraordinary biodiversity of the Arenal region.",
+    "es": "Descubre una faceta diferente del bosque tropical de Costa Rica durante una caminata nocturna guiada. Al caer la noche, el bosque se transforma en un mundo de sonidos, colores y movimiento. Acompañado por un guía local, recorrerás hábitats naturales en busca de ranas arborícolas, insectos, aves descansando y otras especies nocturnas. Cada recorrido ofrece una oportunidad única para apreciar la extraordinaria biodiversidad de la región del Arenal."
+  },
+  "duration": null,
+  "location": "La Fortuna, Arenal, Costa Rica",
+  "inclusions": [],
+  "exclusions": [],
+  "price": null,
+  "availability": null,
+  "images": [
+      {
+        "src": "/images/experiences/nocturnal-tour/red-eyed-tree-frog.webp",
+        "alt": {
+          "en": "Red-eyed tree frog in the Costa Rican rainforest at night",
+          "es": "Rana de ojos rojos en el bosque tropical de Costa Rica durante la noche"
+        }
+      },
+      {
+        "src": "/images/experiences/nocturnal-tour/blue-jeans.webp",
+        "alt": {
+          "en": "Blue Jeans frog in the Costa Rican rainforest at night",
+          "es": "Rana Blue Jeans en el bosque tropical de Costa Rica durante la noche"
+        }
+      },
+      {
+        "src": "/images/experiences/nocturnal-tour/opossum.webp",
+        "alt": {
+          "en": "Opossum in the Costa Rican rainforest at night",
+          "es": "Zarigüeya en el bosque tropical de Costa Rica durante la noche"
+        }
+      },
+      {
+        "src": "/images/experiences/nocturnal-tour/spider.webp",
+        "alt": {
+          "en": "Spider in the Costa Rican rainforest at night",
+          "es": "Araña en el bosque tropical de Costa Rica durante la noche"
+        }
+      },
+      {
+        "src": "/images/experiences/nocturnal-tour/frog.webp",
+        "alt": {
+          "en": "Frog in the Costa Rican rainforest at night",
+          "es": "Rana en el bosque tropical de Costa Rica durante la noche"
+        }
+      }
+    ],
+    "videos": [],
+    "seo": null
+  },
+  {
+    "id": "special-occasions",
+    "slug": "special-occasions",
+    "published": true,
+    "featured": true,
+    "category": "romantic",
+    "title": { "en": "Special Occasions", "es": "Ocasiones Especiales" },
+    "summary": {
+      "en": "Anniversaries, proposals and birthdays, prepared with care.",
+      "es": "Aniversarios, propuestas y cumpleaños, preparados con cuidado."
+    },
+    "description": {
+      "en": "Tell us what you are celebrating. We take care of the setting, details and timing so the moment feels effortless.",
+      "es": "Cuéntenos qué celebra. Nos encargamos del lugar, los detalles y los tiempos para que todo fluya con naturalidad."
+    },
+    "duration": null,
+    "location": null,
+    "inclusions": [],
+    "exclusions": [],
+    "price": null,
+    "availability": null,
+    "images": [],
+    "videos": [],
+    "seo": null
+  },
+  {
+    "id": "personalized-itinerary",
+    "slug": "personalized-itinerary",
+    "published": true,
+    "featured": false,
+    "category": "itineraries",
+    "title": { "en": "Personalized Itinerary", "es": "Itinerario Personalizado" },
+    "summary": {
+      "en": "A day-by-day plan for your stay, built around what you enjoy.",
+      "es": "Un plan día a día para su estadía, pensado en lo que usted disfruta."
+    },
+    "description": {
+      "en": "Before you arrive, we put together a plan that balances activity and rest, then book what you approve.",
+      "es": "Antes de su llegada preparamos un plan que equilibra actividad y descanso, y reservamos lo que usted apruebe."
+    },
+    "duration": null,
+    "location": null,
+    "inclusions": [],
+    "exclusions": [],
+    "price": null,
+    "availability": null,
+    "images": [],
+    "videos": [],
+    "seo": null
+  }
+]

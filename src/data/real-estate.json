@@ -1,0 +1,147 @@
+
+[
+  {
+    "id": "monterrey-natural-refuge",
+    "slug": "tu-refugio-natural-monterrey-san-carlos",
+    "published": true,
+    "featured": true,
+    "name": "Tu Refugio Natural en Monterrey de San Carlos",
+    "status": "available",
+    "propertyType": "land",
+    "location": {
+      "city": "Monterrey de San Carlos",
+      "region": "Alajuela",
+      "country": "Costa Rica",
+      "coordinates": null
+    },
+    "price": {
+      "amount": 150000000,
+      "currency": "CRC"
+    },
+    "bedrooms": null,
+    "bathrooms": null,
+    "landArea": 41456,
+    "constructionArea": null,
+    "summary": {
+      "es": "Propiedad de 41.456 m² · Vista panorámica · Zonas naturales",
+      "en": "41,456 m² property · Panoramic views · Natural surroundings"
+    },
+    "description": {
+      "es": "A menos de 1 km del centro de Monterrey de San Carlos, esta propiedad de 41.456 m² combina accesibilidad, privacidad y un entorno natural diverso. Dos accesos independientes conectan zonas planas y terrazas naturales con sectores montañosos y puntos de vista panorámica. Árboles maduros, fauna local y una quebrada que bordea la propiedad crean un ambiente tranquilo para vivir o desarrollar un proyecto en contacto con la naturaleza.\n\nEl terreno ofrece posibilidades para una residencia privada, cabinas de alquiler vacacional, un eco-lodge, glamping o un proyecto turístico por etapas, sujeto a los permisos correspondientes. Cuenta con disponibilidad de agua, electricidad e internet. El camino de acceso ofrece vistas al Volcán Arenal. Según la información proporcionada, se encuentra aproximadamente a 20 minutos de las aguas termales, la Laguna de Arenal y otros atractivos turísticos de la zona.\n\nLa propiedad completa se ofrece en ₡150.000.000, negociables. También existe la opción de segregar lotes desde 5.000 m², con precios desde ₡8.000/m² según el área elegida. La disponibilidad, los precios y la segregación deben confirmarse antes de la compra.",
+      "en": "Less than 1 km from the center of Monterrey de San Carlos, this 41,456 m² property combines accessibility, privacy and a diverse natural setting. Two independent access points connect level areas and natural terraces with hillside sections and panoramic viewpoints. Mature trees, local wildlife and a stream bordering the property create a peaceful setting for a private residence or a nature-focused project.\n\nThe land offers possibilities for a private home, vacation-rental cabins, an eco-lodge, glamping or a phased tourism project, subject to applicable permits. Water, electricity and internet services are available. The access road offers views of Arenal Volcano. According to the supplied information, the property is approximately 20 minutes from hot springs, Lake Arenal and other attractions in the area.\n\nThe entire property is offered at CRC 150,000,000, negotiable. Subdivision options start at 5,000 m², with prices from CRC 8,000/m² depending on the selected area. Availability, pricing and subdivision conditions should be confirmed before purchase."
+    },
+    "features": [
+      {
+        "es": "41.456 m² de terreno",
+        "en": "41,456 m² of land"
+      },
+      {
+        "es": "Opción de segregar desde 5.000 m²",
+        "en": "Subdivision options from 5,000 m²"
+      },
+      {
+        "es": "Dos accesos independientes",
+        "en": "Two independent access points"
+      },
+      {
+        "es": "Sectores con vistas panorámicas",
+        "en": "Panoramic viewpoints"
+      },
+      {
+        "es": "Zonas planas, terrazas naturales y áreas montañosas",
+        "en": "Level areas, natural terraces and hillside sections"
+      },
+      {
+        "es": "Quebrada en el entorno de la propiedad",
+        "en": "Stream along the property surroundings"
+      },
+      {
+        "es": "Árboles maduros, aves y fauna local",
+        "en": "Mature trees, birds and local wildlife"
+      },
+      {
+        "es": "Agua, electricidad e internet disponibles",
+        "en": "Water, electricity and internet available"
+      },
+      {
+        "es": "A menos de 1 km del centro de Monterrey",
+        "en": "Less than 1 km from central Monterrey"
+      },
+      {
+        "es": "Potencial residencial y turístico, sujeto a permisos",
+        "en": "Residential and tourism potential, subject to permits"
+      }
+    ],
+    "subdivision": {
+      "minimumArea": 5000,
+      "startingPricePerSqm": 8000,
+      "currency": "CRC",
+      "negotiable": true
+    },
+    
+"images": [
+    {
+        "src": "/images/properties/real-estate/Alto de Monterrey/01.webp",
+        "alt": {
+        "es": "Propiedad en Monterrey de San Carlos, Costa Rica",
+        "en": "Property in Monterrey de San Carlos, Costa Rica"
+        }
+    },
+    {
+        "src": "/images/properties/real-estate/Alto de Monterrey/02-v2.webp",
+        "alt": {
+        "es": "Propiedad en Monterrey de San Carlos, Costa Rica",
+        "en": "Property in Monterrey de San Carlos, Costa Rica"
+        }
+    },
+    {
+        "src": "/images/properties/real-estate/Alto de Monterrey/03.webp",
+        "alt": {
+        "es": "Propiedad en Monterrey de San Carlos, Costa Rica",
+        "en": "Property in Monterrey de San Carlos, Costa Rica"
+        }
+    },
+    {
+        "src": "/images/properties/real-estate/Alto de Monterrey/04.webp",
+        "alt": {
+        "es": "Propiedad en Monterrey de San Carlos, Costa Rica",
+        "en": "Property in Monterrey de San Carlos, Costa Rica"
+        }
+    },
+    {
+        "src": "/images/properties/real-estate/Alto de Monterrey/05.webp",
+        "alt": {
+        "es": "Propiedad en Monterrey de San Carlos, Costa Rica",
+        "en": "Property in Monterrey de San Carlos, Costa Rica"
+        }
+    },
+    {
+        "src": "/images/properties/real-estate/Alto de Monterrey/06.webp",
+        "alt": {
+        "es": "Propiedad en Monterrey de San Carlos, Costa Rica",
+        "en": "Property in Monterrey de San Carlos, Costa Rica"
+        }
+    }
+    ],
+
+    "videos": [
+        {
+            "src": "/videos/properties/Alto de Monterrey/01.mp4",
+            "alt": {
+                "es": "Video de la propiedad en Monterrey de San Carlos, Costa Rica",
+                "en": "Video of the property in Monterrey de San Carlos, Costa Rica"
+            }
+        }
+    ],
+    "seo": {
+      "title": {
+        "es": "Tu Refugio Natural en Monterrey de San Carlos | Natura Homes",
+        "en": "Natural Refuge in Monterrey de San Carlos | Natura Homes"
+      },
+      "description": {
+        "es": "Terreno de 41.456 m² en Monterrey de San Carlos. Vistas panorámicas, dos accesos y opción de segregar desde 5.000 m².",
+        "en": "41,456 m² of land in Monterrey de San Carlos with panoramic views, two access points and subdivision options from 5,000 m²."
+      }
+    }
+  }
+]

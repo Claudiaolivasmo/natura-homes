@@ -1,0 +1,633 @@
+[
+  {
+  "id": "aurora-serenity-home",
+  "slug": "aurora-serenity-home",
+  "name": "Aurora Serenity Home",
+  "published": true,
+  "featured": true,
+  "location": {
+    "area": "El Tanque",
+    "city": "La Fortuna",
+    "region": "Alajuela",
+    "country": "Costa Rica",
+    "coordinates": null
+  },
+  "area": null,
+  "city": "El Tanque, La Fortuna",
+  "region": "Alajuela",
+  "country": "Costa Rica",
+  "coordinates": null,
+  "propertyType": "house",
+  "maxGuests": 10,
+  "bedrooms": 4,
+  "bathrooms": 2.5,
+  "summary": {
+    "en": "A welcoming family retreat with a private pool, spacious living areas, and the warmth of Costa Rican hospitality, just minutes from La Fortuna.",
+    "es": "Un refugio acogedor para compartir en familia, con piscina privada, espacios amplios y la calidez de la hospitalidad costarricense, a pocos minutos de La Fortuna."
+  },
+  "description": {
+    "en": "Set in the peaceful community of El Tanque, Aurora Serenity Home invites families and friends to gather, unwind, and experience La Fortuna at their own pace.\n\nThoughtfully arranged living spaces open onto a private pool, garden, and outdoor terrace, creating a natural setting for slow mornings, shared meals, and unhurried afternoons. Four comfortable bedrooms offer room to rest, while a separate air-conditioned lounge provides a quieter place to retreat.\n\nJust 8 km from downtown La Fortuna, the home brings together the comforts of a private residence, glimpses of Arenal Volcano, and the genuine warmth of local hospitality.",
+    "es": "En la tranquila comunidad de El Tanque, Aurora Serenity Home invita a familias y amigos a reunirse, descansar y descubrir La Fortuna a su propio ritmo.\n\nSus amplios espacios se abren hacia una piscina privada, jardines y una terraza exterior, creando el ambiente ideal para mañanas tranquilas, comidas compartidas y tardes sin prisa. Cuatro cómodas habitaciones ofrecen espacio para descansar, mientras que una sala privada con aire acondicionado brinda un rincón más íntimo.\n\nA solo 8 km del centro de La Fortuna, la casa reúne la comodidad de un hogar, vistas parciales al volcán Arenal y la calidez de la hospitalidad local."
+  },
+  "keyFeatures": [
+    {
+      "en": "Private pool with waterfall",
+      "es": "Piscina privada con cascada"
+    },
+    {
+      "en": "Spacious indoor and outdoor living",
+      "es": "Amplios espacios interiores y exteriores"
+    },
+    {
+      "en": "Peaceful garden surroundings",
+      "es": "Jardines y un entorno tranquilo"
+    },
+    {
+      "en": "Partial views of Arenal Volcano",
+      "es": "Vistas parciales al volcán Arenal"
+    },
+    {
+      "en": "Thoughtful local hospitality",
+      "es": "Hospitalidad local y atención personalizada"
+    }
+  ],
+  "amenities": [
+    "Private swimming pool",
+    "Waterfall feature",
+    "Four bedrooms",
+    "Six beds",
+    "Air conditioning in bedrooms",
+    "Private air-conditioned TV lounge",
+    "Open-concept living and dining area",
+    "Fully equipped kitchen",
+    "Outdoor terrace",
+    "BBQ area",
+    "Private garden",
+    "Self check-in"
+  ],
+  "houseRules": [],
+  "checkIn": null,
+  "checkOut": null,
+
+"images": [
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/portada.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/01.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/02.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/03.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/04.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/05.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/06.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/07.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/08.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/09.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/10.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/11.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/12.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/13.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/14.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/15.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/16.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/17.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/18.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/19.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/20.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/21.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/22.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/23.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/24.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/25.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/26.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/27.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/28.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/29.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/30.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/31.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/32.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/33.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/34.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/35.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/36.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/37.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  },
+  {
+    "src": "/images/properties/vacation-rentals/aurora-serenity-home/38.webp",
+    "alt": {
+      "en": "Aurora Serenity Home vacation rental in El Tanque, La Fortuna, Costa Rica",
+      "es": "Aurora Serenity Home, alojamiento vacacional en El Tanque, La Fortuna, Costa Rica"
+    }
+  }
+],
+    "videos": [],
+    "airbnbUrl": "https://www.airbnb.co.cr/rooms/1503069777314371349?guests=1&adults=1&s=67&unique_share_id=ed301578-b0c1-4037-bb11-14ef6011124c",
+    "booking": {
+      "provider": null,
+      "url": null
+    },
+    "seo": null
+  },
+    {
+    "id": "volterra-house",
+    "slug": "volterra-house",
+    "name": "Volterra House",
+    "published": true,
+    "featured": true,
+    "location": {
+      "area": null,
+      "city": "La Fortuna",
+      "region": "Alajuela",
+      "country": "Costa Rica",
+      "coordinates": null
+    },
+    "propertyType": "house",
+    "maxGuests": 4,
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "summary": {
+        "en": "A modern, comfortable home just 2 km from downtown La Fortuna, with peaceful surroundings, a private balcony, and a beautiful outdoor shower.",
+        "es": "Una casa moderna y acogedora a solo 2 km del centro de La Fortuna, con un entorno tranquilo, balcón privado y una hermosa ducha al aire libre."
+      },
+      "description": {
+        "en": "Volterra House is a modern, comfortable home located in a quiet area of La Fortuna, just a few minutes from downtown. It's a lovely place to come back to after a day exploring the volcano, waterfalls, and hot springs.\n\nThe house has two bedrooms with air conditioning, a fully equipped kitchen, and comfortable spaces to spend time together. Our favorite part is the main bedroom, with large windows, a private balcony overlooking the greenery, and an outdoor shower that's especially nice in the evenings.\n",
+        "es": "Volterra House es una casa moderna y acogedora, ubicada en una zona tranquila de La Fortuna, a pocos minutos del centro. Es un lugar ideal para regresar después de un día explorando el volcán, las cataratas o las aguas termales.\n\nLa casa cuenta con dos habitaciones con aire acondicionado, cocina completamente equipada y espacios cómodos para compartir. Nuestra parte favorita es la habitación principal, con grandes ventanales, un balcón privado con vista a la vegetación y una ducha al aire libre que se disfruta especialmente por las noches.\n"
+      },
+
+
+    "keyFeatures": [
+      {
+        "en": "Private outdoor shower",
+        "es": "Ducha privada al aire libre"
+      },
+      {
+        "en": "Floor-to-ceiling windows and private balcony",
+        "es": "Ventanales de piso a techo y balcón privado"
+      },
+      {
+        "en": "Peaceful tropical surroundings",
+        "es": "Entorno tropical y tranquilo"
+      },
+      {
+        "en": "Contemporary open-concept living",
+        "es": "Espacios contemporáneos de concepto abierto"
+      },
+      {
+        "en": "Thoughtful local hospitality",
+        "es": "Hospitalidad local y atención personalizada"
+      }
+    ],
+    "amenities": [
+      "air-conditioning-both-bedrooms",
+      "fully-equipped-kitchen",
+      "private-outdoor-shower",
+      "private-balcony",
+      "tropical-garden",
+      "open-concept-dining-area",
+      "washer-and-dryer",
+      "on-site-parking",
+      "electric-vehicle-charger",
+      "self-check-in"
+    ],
+    "houseRules": [],
+    "checkIn": null,
+    "checkOut": null,
+    "images": [
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/portada.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/01.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/02.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/03.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/04.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/05.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/06.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/07.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/08.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/09.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/10.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/11.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/12.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/13.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/14.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/15.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      },
+      {
+        "src": "/images/properties/vacation-rentals/volterra-house/16.webp",
+        "alt": {
+          "en": "Volterra House vacation rental in La Fortuna, Costa Rica",
+          "es": "Volterra House, alojamiento vacacional en La Fortuna, Costa Rica"
+        },
+        "width": 3473,
+        "height": 3899
+      }
+    ],
+    "videos": [],
+    "airbnbUrl": "https://www.airbnb.co.cr/rooms/1732759038083828684?guests=1&adults=1&s=67&unique_share_id=d3953f34-8069-4762-a82c-48da9aae279d",
+    "booking": {
+      "provider": null,
+      "url": null
+    },
+    "seo": null
+  },
+  {
+    "id": "cabanas-don-augusto",
+    "slug": "cabanas-don-augusto",
+    "name": "Cabañas Don Augusto",
+    "published": true,
+    "featured": true,
+    "location": {
+      "area": null,
+      "city": "San Isidro, Peñas Blancas",
+      "region": "Alajuela",
+      "country": "Costa Rica",
+      "coordinates": null
+    },
+    "propertyType": null,
+    "maxGuests": null,
+    "bedrooms": null,
+    "bathrooms": null,
+    "summary": {
+        "en": "Private cabins surrounded by nature, with mountain views, a private jacuzzi, and the peaceful sound of the nearby river. Opening November 2026, just outside La Fortuna.",
+        "es": "Cabañas privadas rodeadas de naturaleza, con vistas a las montañas, jacuzzi privado y el sonido relajante del río. Próxima apertura en noviembre de 2026, a pocos minutos de La Fortuna."
+      },
+    "description": {
+        "en": "Cabañas Don Augusto is getting ready to welcome its first guests in November 2026. Located in San Isidro de Peñas Blancas, just a short drive from La Fortuna, our cabins are surrounded by mountains, lush vegetation, and local wildlife.\n\nEach cabin offers its own private jacuzzi and a peaceful space to enjoy nature without distractions. One of the most special things about this place is the river that runs nearby, whose gentle sound can be heard as you relax or fall asleep at night.\n\nWe're looking forward to opening our doors and sharing this beautiful little corner of Costa Rica with you.",
+        "es": "Cabañas Don Augusto se prepara para recibir a sus primeros huéspedes en noviembre de 2026. Ubicadas en San Isidro de Peñas Blancas, a pocos minutos de La Fortuna, nuestras cabañas están rodeadas de montañas, abundante vegetación y vida silvestre.\n\nCada cabaña cuenta con su propio jacuzzi privado y un espacio tranquilo para disfrutar de la naturaleza sin distracciones. Uno de los detalles más especiales del lugar es el río que corre cerca de la propiedad, cuyo sonido puedes escuchar mientras descansas o te quedas dormido por la noche.\n\nEstamos muy emocionados de abrir nuestras puertas y compartir este hermoso rincón de Costa Rica con ustedes."
+      },
+
+    "keyFeatures": [],
+    "amenities": [],
+    "houseRules": [],
+    "checkIn": null,
+    "checkOut": null,
+    "images": [
+      {
+        "src": "/images/properties/vacation-rentals/cabanas-don-augusto/portada-v2.webp",
+        "alt": {
+          "en": "Cabañas Don Augusto vacation rental in San Isidro, Peñas Blancas, Costa Rica",
+          "es": "Cabañas Don Augusto, alojamiento vacacional en San Isidro, Peñas Blancas, Costa Rica"
+        },
+        "width": 5873,
+        "height": 3915
+      }
+    ],
+    "videos": [],
+    "airbnbUrl": "",
+    "booking": {
+      "provider": null,
+      "url": null
+    },
+    "seo": null
+  }
+
+]

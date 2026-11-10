@@ -1,0 +1,767 @@
+{
+  "meta": {
+    "defaultTitle": "Natura Homes | Administración de propiedades y alquileres vacacionales en La Fortuna",
+    "defaultDescription": "Administración de propiedades, alquileres vacacionales seleccionados y conserjería privada en La Fortuna, Costa Rica.",
+    "homeTitle": "Natura Homes | Administración de propiedades y experiencias en La Fortuna",
+    "pmTitle": "Administración de alquileres vacacionales en La Fortuna",
+    "pmDescription": "Administración integral de alquileres vacacionales en La Fortuna: anuncios, tarifas, atención a huéspedes, limpieza, mantenimiento y reportes claros para propietarios.",
+    "rentalsTitle": "Alquileres vacacionales en La Fortuna",
+    "rentalsDescription": "Una selección de casas en La Fortuna y la zona del Arenal, atendidas por Natura Homes.",
+    "conciergeTitle": "Conserjería y experiencias",
+    "conciergeDescription": "Salidas al Volcán Arenal, aguas termales, chef privado, transporte y bienestar, coordinados durante su estadía en La Fortuna.",
+    "realEstateTitle": "Bienes raíces en La Fortuna",
+    "realEstateDescription": "Casas y terrenos seleccionados a la venta en La Fortuna y la zona del Arenal.",
+    "aboutTitle": "Nosotros y contacto",
+    "aboutDescription": "Conozca Natura Homes, una empresa de hospitalidad y administración de propiedades con base en La Fortuna, Costa Rica."
+  },
+  "common": {
+    "skipToContent": "Ir al contenido"
+  },
+  "nav": {
+    "home": "Inicio",
+    "propertyManagement": "Administración",
+    "vacationRentals": "Alquileres",
+    "concierge": "Conserjería",
+    "realEstate": "Bienes Raíces",
+    "aboutContact": "Nosotros y Contacto",
+    "listProperty": "Registre su propiedad",
+    "homeAria": "Natura Homes, inicio",
+    "primary": "Principal",
+    "language": "Idioma",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "menu": "Menú"
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola Natura Homes, me gustaría recibir información.",
+    "floatLabel": "Escríbanos por WhatsApp",
+    "opensInNewTab": "(se abre en una pestaña nueva)",
+    "ownerMessage": "Hola Natura Homes, tengo una propiedad y me gustaría conversar sobre su administración.",
+    "rentalMessage": "Hola Natura Homes, me interesa {name}. ¿Me podrían indicar la disponibilidad?",
+    "experienceMessage": "Hola Natura Homes, me gustaría coordinar {name}.",
+    "listingMessage": "Hola Natura Homes, me gustaría más información sobre {name}.",
+    "realEstateGeneral": "Hola Natura Homes, me interesan propiedades en La Fortuna.",
+    "conciergeMessage": "Hola Natura Homes, me gustaría recibir ayuda para planear experiencias de conserjería durante mi estadía."
+  },
+  "footer": {
+    "tagline": "Administración de propiedades, alquileres vacacionales y conserjería privada en La Fortuna, Costa Rica.",
+    "serviceArea": "La Fortuna y alrededores, Alajuela, Costa Rica",
+    "navLabel": "Pie de página",
+    "explore": "Explorar",
+    "contact": "Contacto",
+    "contactForm": "Envíenos un mensaje",
+    "social": "Redes sociales",
+    "instagramLabel": "Siga a Natura Homes en Instagram",
+    "facebookLabel": "Siga a Natura Homes en Facebook",
+    "location": "La Fortuna, Costa Rica",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Natura Homes · La Fortuna, Costa Rica",
+      "title": "Administración de propiedades y experiencias <em>en La Fortuna</em>",
+      "subtitle": "Casas bien administradas, estadías excepcionales y experiencias personalizadas en el corazón de Costa Rica.",
+      "primaryCta": "Ver nuestras casas",
+      "secondaryCta": "Trabaje con nosotros",
+      "location": "Región del Volcán Arenal, Alajuela",
+      "scroll": "Descubrir"
+    },
+    "intro": {
+      "eyebrow": "Natura Homes",
+      "title": "Una forma más cuidadosa de entender la hospitalidad",
+      "p1": "Somos una empresa de La Fortuna que cuida casas y a quienes se hospedan en ellas. Los propietarios reciben atención profesional y comunicación clara. Los huéspedes encuentran una casa bien preparada y a alguien local a quien llamar.",
+      "p2": "Administramos cada propiedad como si fuera nuestra, con la misma atención al calendario de reservas que a un juego de sábanas limpias.",
+      "cta": "Sobre nosotros"
+    },
+    "expertise": {
+      "eyebrow": "Lo que hacemos",
+      "title": "Tres formas de trabajar con usted",
+      "management": {
+        "title": "Administración de propiedades",
+        "text": "Cuidado profesional, gestión estratégica y atención personalizada al propietario."
+      },
+      "rentals": {
+        "title": "Alquileres vacacionales",
+        "text": "Una selección de propiedades en La Fortuna y destinos cercanos."
+      },
+      "concierge": {
+        "title": "Conserjería y experiencias",
+        "text": "Servicios personalizados y experiencias escogidas con cuidado en todo Costa Rica."
+      }
+    },
+    "featured": {
+      "eyebrow": "Casas destacadas",
+      "title": "Casas que cuidamos",
+      "lede": "Cada una preparada, revisada y respaldada por nuestro equipo local durante su estadía.",
+      "cta": "Ver todas las casas"
+    },
+    "management": {
+      "eyebrow": "Para propietarios",
+      "title": "Su propiedad. Nuestra experiencia.",
+      "lede": "Nos encargamos del trabajo diario de un alquiler vacacional para que su casa rinda bien y se mantenga en excelente estado.",
+      "b1": {
+        "title": "Anuncios a la altura de la casa",
+        "text": "Descripciones claras, buena fotografía y gestión activa en las principales plataformas de reserva."
+      },
+      "b2": {
+        "title": "Tarifas según la demanda",
+        "text": "Precios revisados según temporada, eventos y demanda local, no fijados una vez y olvidados."
+      },
+      "b3": {
+        "title": "Cuidado entre cada estadía",
+        "text": "Limpieza, inspecciones y mantenimiento coordinados por personas que viven aquí."
+      },
+      "b4": {
+        "title": "Reportes fáciles de leer",
+        "text": "Información periódica y clara sobre reservas, ingresos y gastos."
+      },
+      "cta": "Conocer la administración"
+    },
+    "concierge": {
+      "eyebrow": "Conserjería y experiencias",
+      "title": "Más allá de la estadía",
+      "lede": "Del volcán a una cena tranquila en casa, coordinamos los detalles para que sus días fluyan.",
+      "cta": "Todas las experiencias",
+      "listLabel": "Experiencias destacadas"
+    },
+    "philosophy": {
+      "eyebrow": "Nuestra filosofía",
+      "title": "Cómo trabajamos",
+      "lede": "Principios sencillos que aplicamos a cada casa y a cada huésped.",
+      "personal": {
+        "title": "Servicio personalizado",
+        "text": "Propietarios y huéspedes tratan con personas que conocen sus nombres y sus planes."
+      },
+      "local": {
+        "title": "Conocimiento local",
+        "text": "Vivimos y trabajamos en La Fortuna. Conocemos la zona, sus temporadas y su gente."
+      },
+      "professional": {
+        "title": "Hospitalidad profesional",
+        "text": "Estándares de hotel aplicados a casas privadas, de la llegada a la salida."
+      },
+      "detail": {
+        "title": "Atención al detalle",
+        "text": "Lo pequeño, bien hecho siempre: una luz que funciona, un kit de bienvenida completo, una respuesta a tiempo."
+      },
+      "care": {
+        "title": "Cuidado de la propiedad",
+        "text": "Mantenimiento preventivo e inspecciones periódicas que protegen la casa con el tiempo."
+      },
+      "transparency": {
+        "title": "Comunicación transparente",
+        "text": "El propietario sabe qué pasa con su propiedad y por qué."
+      }
+    },
+    "stories": {
+      "eyebrow": "Historias de huéspedes",
+      "title": "En sus palabras"
+    },
+    "ownerCta": {
+      "eyebrow": "Para propietarios",
+      "title": "Las propiedades excepcionales merecen un cuidado excepcional.",
+      "text": "Cuéntenos sobre su casa. La revisamos con usted y le explicamos cómo la administraríamos.",
+      "cta": "Solicitar una consulta"
+    }
+  },
+  "pm": {
+    "hero": {
+      "eyebrow": "Administración de propiedades",
+      "title": "Su propiedad, <em>en buenas manos.</em>",
+      "plainTitle": "Administración de alquileres vacacionales",
+      "lede": "Cuidado atento de la propiedad, gestión estratégica del alquiler y experiencias excepcionales para sus huéspedes.",
+      "cta": "Solicitar una consulta",
+      "whatsapp": "Conversar por WhatsApp"
+    },
+    "approach": {
+      "eyebrow": "Nuestro enfoque",
+      "statement": "Administramos alquileres vacacionales como se dirige un buen hotel: con estándares claros, comunicación constante y un cuidado que continúa entre reservas.",
+      "text": "Usted conserva la propiedad y el control de su casa. Nosotros nos encargamos de los anuncios, los huéspedes, el equipo en sitio y los números, y lo mantenemos informado en todo momento."
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Todo lo que necesita una casa en alquiler",
+      "lede": "Un solo equipo para todo el ciclo, desde preparar la propiedad hasta reportar sus resultados.",
+      "groups": {
+        "launch": "Puesta en marcha y anuncios",
+        "revenue": "Tarifas e ingresos",
+        "guests": "Experiencia del huésped",
+        "care": "Cuidado de la propiedad"
+      },
+      "items": {
+        "onboarding": {
+          "title": "Incorporación de la propiedad",
+          "text": "Una entrega ordenada que cubre accesos, sistemas, inventario y estándares de la casa."
+        },
+        "listing": {
+          "title": "Creación y optimización de anuncios",
+          "text": "Anuncios precisos y bien escritos, revisados y mejorados con el tiempo."
+        },
+        "photography": {
+          "title": "Coordinación de fotografía",
+          "text": "Fotografía profesional organizada y dirigida para mostrar la casa con honestidad."
+        },
+        "channels": {
+          "title": "Gestión en Airbnb y Booking.com",
+          "text": "Calendarios, mensajes, reseñas y configuración gestionados en cada plataforma."
+        },
+        "pricing": {
+          "title": "Tarifas dinámicas",
+          "text": "Precios por noche ajustados según temporada, demanda, eventos y ritmo de reservas."
+        },
+        "revenue": {
+          "title": "Optimización de ingresos",
+          "text": "Estadías mínimas, noches libres y ocupación gestionadas para mejorar el resultado general."
+        },
+        "reporting": {
+          "title": "Reportes al propietario",
+          "text": "Estados periódicos de reservas, ingresos y gastos, con contexto."
+        },
+        "communication": {
+          "title": "Comunicación con huéspedes",
+          "text": "Respuestas rápidas y cordiales antes, durante y después de cada estadía."
+        },
+        "checkin": {
+          "title": "Check-in y check-out",
+          "text": "Llegadas y salidas sin contratiempos, en persona o con ingreso autónomo."
+        },
+        "concierge": {
+          "title": "Coordinación de conserjería",
+          "text": "Traslados, tours y servicios privados organizados para sus huéspedes."
+        },
+        "housekeeping": {
+          "title": "Gestión de limpieza",
+          "text": "Limpiezas con un estándar constante, con ropa de cama y suministros bajo control."
+        },
+        "maintenance": {
+          "title": "Coordinación de mantenimiento",
+          "text": "Técnicos locales de confianza para trabajos planificados y reparaciones urgentes."
+        },
+        "inspections": {
+          "title": "Inspecciones de la propiedad",
+          "text": "Revisiones periódicas del estado, la seguridad y todo lo que requiera atención."
+        },
+        "inventory": {
+          "title": "Gestión de inventario",
+          "text": "Mobiliario, equipos y amenidades controlados y repuestos a tiempo."
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "De la primera llamada a la administración continua",
+      "lede": "Un proceso claro para que siempre sepa cuál es el siguiente paso.",
+      "stepLabel": "Paso {n}:",
+      "steps": {
+        "consultation": {
+          "title": "Consulta inicial",
+          "text": "Conocemos su propiedad, sus objetivos y el uso que le da a la casa."
+        },
+        "evaluation": {
+          "title": "Evaluación de la propiedad",
+          "text": "Una visita para revisar la casa, su potencial y lo que necesita."
+        },
+        "onboarding": {
+          "title": "Preparación e incorporación",
+          "text": "Configuración, suministros, fotografía y estándares de la casa en orden."
+        },
+        "launch": {
+          "title": "Publicación de anuncios",
+          "text": "Los anuncios salen en línea con tarifas y calendarios configurados."
+        },
+        "ongoing": {
+          "title": "Administración continua",
+          "text": "Operación diaria, atención a huéspedes y reportes periódicos para usted."
+        }
+      }
+    },
+    "owners": {
+      "eyebrow": "Para propietarios",
+      "title": "Siempre informado",
+      "lede": "Una buena administración se nota. Usted siempre sabrá cómo va su casa.",
+      "o1": "Un solo contacto que conoce su propiedad.",
+      "o2": "Estados claros de ingresos y gastos.",
+      "o3": "Aviso previo y su aprobación antes de gastos importantes."
+    },
+    "form": {
+      "eyebrow": "Consulta",
+      "title": "Cuéntenos sobre su propiedad",
+      "lede": "Comparta algunos datos y nos pondremos en contacto para coordinar una conversación."
+    }
+  },
+  "rentals": {
+    "bedroomsCount": "{count, plural, one {# habitación} other {# habitaciones}}",
+    "bathroomsCount": "{count, plural, one {{formatted} baño} other {{formatted} baños}}",
+    "guestsCount": "{count, plural, one {# huésped} other {# huéspedes}}",
+    "viewProperty": "Ver propiedad",
+    "hero": {
+      "eyebrow": "Alquileres vacacionales",
+      "title": "Casas para <em>quedarse bien</em>",
+      "lede": "Una selección de casas en La Fortuna y la zona del Arenal, cada una preparada y respaldada por nuestro equipo local."
+    },
+    "catalog": {
+      "comingSoonTitle": "Pronto sumaremos nuevas casas",
+      "comingSoonText": "Estamos preparando nuestra colección. Escríbanos y le ayudamos a encontrar el lugar adecuado para sus fechas.",
+      "filtersLabel": "Filtrar casas",
+      "location": "Ubicación",
+      "allLocations": "Todas las ubicaciones",
+      "guests": "Huéspedes",
+      "any": "Cualquiera",
+      "atLeast": "{count}+",
+      "bedrooms": "Habitaciones",
+      "sortBy": "Ordenar por",
+      "sortFeatured": "Destacadas",
+      "sortName": "Nombre",
+      "sortGuests": "Más huéspedes",
+      "sortBedrooms": "Más habitaciones",
+      "amenities": "Amenidades",
+      "results": "{count, plural, =0 {Ninguna casa} one {# casa} other {# casas}}",
+      "clearFilters": "Limpiar filtros",
+      "emptyTitle": "Ninguna casa coincide con estos filtros",
+      "emptyText": "Pruebe con menos filtros o contáctenos y le sugerimos opciones.",
+      "loadMore": "Ver más casas"
+    },
+    "detail": {
+      "metaFallback": "{name}, un alquiler vacacional en {location} administrado por Natura Homes.",
+      "breadcrumb": "Ruta de navegación",
+      "bedrooms": "Habitaciones",
+      "bathrooms": "Baños",
+      "guests": "Huéspedes",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "detailsOnRequest": "Los detalles completos de la propiedad están disponibles a solicitud.",
+      "about": "Sobre la casa",
+      "descriptionPending": "Estamos preparando la descripción completa de esta casa. Mientras tanto, contáctenos para más detalles.",
+      "highlights": "Lo más destacado",
+      "amenities": "Amenidades",
+      "houseRules": "Normas de la casa",
+      "location": "Ubicación",
+      "locationNote": "La dirección exacta se comparte después de la reserva.",
+      "openMap": "Ver la zona en el mapa",
+      "bookingTitle": "Planee su estadía",
+      "bookingDescription": "Consulte la disponibilidad y las tarifas para sus fechas directamente en Airbnb.",
+      "checkAvailability": "CONSULTAR DISPONIBILIDAD Y TARIFAS",
+      "askWhatsApp": "Preguntar por WhatsApp",
+      "gallery": "Galería",
+      "inquiryEyebrow": "Consulta",
+      "inquiryTitle": "Pregunte por {name}",
+      "inquiryText": "Incluya sus fechas y la cantidad de huéspedes, y le responderemos personalmente.",
+      "related": "También le puede interesar"
+    },
+    "providers": {
+      "airbnb": "Airbnb",
+      "booking": "Booking.com",
+      "vrbo": "Vrbo",
+      "direct": "nuestra página de reservas",
+      "other": "una plataforma aliada"
+    }
+  },
+  "amenities": {
+    "pool": "Piscina privada",
+    "shared-pool": "Piscina compartida",
+    "hot-tub": "Jacuzzi",
+    "wifi": "Wi-Fi",
+    "workspace": "Espacio de trabajo",
+    "air-conditioning": "Aire acondicionado",
+    "kitchen": "Cocina equipada",
+    "bbq": "Parrilla",
+    "parking": "Parqueo",
+    "washer": "Lavadora",
+    "dryer": "Secadora",
+    "volcano-view": "Vista al volcán",
+    "garden": "Jardín",
+    "terrace": "Terraza",
+    "tv": "Televisor",
+    "generator": "Planta eléctrica",
+    "security": "Seguridad",
+    "pet-friendly": "Se admiten mascotas",
+    "family-friendly": "Ideal para familias",
+    "accessible": "Acceso sin escalones",
+    "air-conditioning-both-bedrooms": "Aire acondicionado en ambas habitaciones",
+    "fully-equipped-kitchen": "Cocina totalmente equipada",
+    "private-outdoor-shower": "Ducha privada al aire libre",
+    "private-balcony": "Balcón privado",
+    "tropical-garden": "Jardín tropical",
+    "open-concept-dining-area": "Comedor de concepto abierto",
+    "washer-and-dryer": "Lavadora y secadora",
+    "on-site-parking": "Estacionamiento en la propiedad",
+    "electric-vehicle-charger": "Cargador para vehículo eléctrico",
+    "self-check-in": "Llegada autónoma"
+  },
+  "gallery": {
+    "openItem": "Abrir imagen {current} de {total}, {title}",
+    "viewAll": "Ver las {count}",
+    "counter": "{current} / {total}",
+    "close": "Cerrar galería",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "thumbnails": "Miniaturas",
+    "goTo": "Mostrar elemento {current} de {total}"
+  },
+  "realEstate": {
+    "status": {
+      "available": "Disponible",
+      "under-contract": "En negociación",
+      "sold": "Vendida"
+    },
+    "priceOnRequest": "Precio a consultar",
+    "builtArea": "{area} de construcción",
+    "landAreaShort": "{area} de terreno",
+    "types": {
+      "house": "Casa",
+      "villa": "Villa",
+      "condo": "Condominio",
+      "lot": "Lote",
+      "land": "Terreno",
+      "commercial": "Comercial",
+      "farm": "Finca"
+    },
+    "hero": {
+      "eyebrow": "Bienes raíces",
+      "title": "Casas <em>y terrenos</em> seleccionados",
+      "lede": "Un número reducido de propiedades a la venta en La Fortuna y la zona del Arenal, presentadas con información precisa.",
+      "cta": "Conversemos"
+    },
+    "catalog": {
+      "comingSoonTitle": "Próximamente",
+      "comingSoonText": "Estamos preparando una selección de propiedades. Si desea comprar o vender en la zona, con gusto conversamos.",
+      "filtersLabel": "Filtrar propiedades",
+      "status": "Estado",
+      "statusActive": "Disponibles y en negociación",
+      "statusAll": "Todas, incluidas vendidas",
+      "type": "Tipo",
+      "allTypes": "Todos los tipos",
+      "location": "Ubicación",
+      "allLocations": "Todas las ubicaciones",
+      "bedrooms": "Habitaciones",
+      "any": "Cualquiera",
+      "atLeast": "{count}+",
+      "sortBy": "Ordenar por",
+      "sortFeatured": "Destacadas",
+      "sortPriceAsc": "Precio, menor a mayor",
+      "sortPriceDesc": "Precio, mayor a menor",
+      "sortLand": "Mayor terreno",
+      "results": "{count, plural, =0 {Ninguna propiedad} one {# propiedad} other {# propiedades}}",
+      "emptyTitle": "Ninguna propiedad coincide con estos filtros",
+      "emptyText": "Pruebe otra combinación o cuéntenos qué está buscando.",
+      "clearFilters": "Limpiar filtros",
+      "loadMore": "Ver más propiedades"
+    },
+    "detail": {
+      "breadcrumb": "Ruta de navegación",
+      "type": "Tipo",
+      "bedrooms": "Habitaciones",
+      "bathrooms": "Baños",
+      "construction": "Construcción",
+      "land": "Terreno",
+      "soldNotice": "Esta propiedad ya fue vendida y se muestra solo como referencia.",
+      "about": "Sobre la propiedad",
+      "descriptionPending": "Estamos preparando la descripción completa. Contáctenos para más detalles.",
+      "features": "Características",
+      "location": "Ubicación",
+      "mapTitle": "Mapa de la zona de {name}",
+      "locationNote": "La ubicación exacta se comparte a solicitud.",
+      "contactTitle": "¿Le interesa esta propiedad?",
+      "contactText": "Solicite más detalles, documentos o una visita privada.",
+      "contactSoldTitle": "¿Busca algo similar?",
+      "contactSoldText": "Esta propiedad ya se vendió. Cuéntenos qué busca y le avisaremos de opciones comparables.",
+      "sendInquiry": "Enviar consulta",
+      "gallery": "Galería",
+      "inquiryEyebrow": "Consulta",
+      "inquiryTitle": "Pregunte por {name}",
+      "related": "Otras propiedades"
+    }
+  },
+  "concierge": {
+    "categories": {
+      "adventure-nature": "Aventura y naturaleza",
+      "wellness": "Bienestar y descanso",
+      "private-dining": "Gastronomía privada",
+      "transportation": "Transporte",
+      "romantic": "Experiencias románticas",
+      "itineraries": "Itinerarios personalizados"
+    },
+    "categoryText": {
+      "adventure-nature": "El volcán, los ríos, los bosques y la fauna que hacen única a la región.",
+      "wellness": "Aguas termales, masajes y tiempo para bajar el ritmo.",
+      "private-dining": "Buena comida preparada en casa, a su ritmo.",
+      "transportation": "Traslados y conductores confiables para cada tramo del viaje.",
+      "romantic": "Celebraciones y momentos tranquilos, preparados con cuidado.",
+      "itineraries": "Un plan para sus días, pensado para usted."
+    },
+    "hero": {
+      "eyebrow": "Conserjería y experiencias",
+      "title": "Más allá <em>de la estadía.</em>",
+      "plainTitle": "Conserjería privada en La Fortuna",
+      "lede": "Experiencias personalizadas, organizadas con cuidado.",
+      "cta": "Planear experiencias",
+      "whatsapp": "Consultar por WhatsApp"
+    },
+    "categoriesLabel": "Categorías de experiencias",
+    "empty": "Estamos actualizando nuestras experiencias. Envíenos una solicitud y le sugerimos opciones para su estadía.",
+    "request": {
+      "eyebrow": "Solicitud de conserjería",
+      "title": "Cuéntenos qué tiene en mente",
+      "lede": "Elija todas las experiencias que desee. Confirmaremos disponibilidad, horarios y precios con usted antes de reservar."
+    },
+    "detail": {
+      "breadcrumb": "Ruta de navegación",
+      "category": "Categoría",
+      "duration": "Duración",
+      "location": "Ubicación",
+      "price": "Desde",
+      "included": "Incluye",
+      "notIncluded": "No incluye",
+      "availability": "Disponibilidad",
+      "availabilityDefault": "Se coordina a solicitud, según disponibilidad en sus fechas.",
+      "priceOnRequest": "El precio se confirma con su solicitud, según el tamaño del grupo y sus preferencias.",
+      "gallery": "Galería",
+      "requestTitle": "Solicitar esta experiencia",
+      "requestText": "Puede agregar otras experiencias. Le responderemos con opciones y confirmaremos antes de reservar.",
+      "askWhatsApp": "Preguntar por WhatsApp",
+      "related": "Combina bien con"
+    },
+    "viewAllCategory": "Ver todas: {category} ({count})",
+    "exploreExperience": "Explorar experiencia",
+    "pricing": {
+      "from": "Desde",
+      "perPerson": "USD por persona",
+      "perGroup": "USD por grupo",
+      "onRequest": "Precio a solicitud",
+      "pricing": "Precios",
+      "pricingCalculator": "Calculadora de precios",
+      "estimatedTotal": "Total estimado",
+      "notConfirmed": "Solo estimado. No es un precio de reserva confirmado.",
+      "select": "Seleccione una opción",
+      "selectTreatment": "Tratamiento o paquete",
+      "selectDuration": "Duración",
+      "treatment": "Tratamiento",
+      "duration": "Duración",
+      "participants": "Participantes",
+      "groups": "Grupos o vehículos",
+      "adults": "Adultos",
+      "children": "Niños",
+      "infants": "Infantes",
+      "selectionPerPerson": "Participantes",
+      "increase": "Aumentar",
+      "decrease": "Disminuir"
+    },
+    "backToConcierge": "Volver a Concierge",
+    "allExperiences": "Todas las experiencias",
+    "noExperiences": "No hay experiencias disponibles"
+  },
+  "forms": {
+    "optional": "opcional",
+    "requiredNote": "Los campos con * son obligatorios.",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "whatsapp": "WhatsApp",
+    "whatsappHint": "Seleccione su país e indique su número.",
+    "phoneCountry": "País y código telefónico",
+    "selectPhoneCountry": "Seleccione país",
+    "select": "Seleccione",
+    "sending": "Enviando",
+    "error": "No pudimos enviar su mensaje. Inténtelo de nuevo o contáctenos por WhatsApp.",
+    "rateLimited": "Demasiados intentos. Espere unos minutos e inténtelo de nuevo.",
+    "sendAnother": "Enviar otro mensaje",
+    "consent": "Acepto que Natura Homes utilice estos datos para responder a mi solicitud, según el <link>aviso de privacidad</link>.",
+    "errors": {
+      "nameRequired": "Por favor indique su nombre.",
+      "tooLong": "El texto es demasiado largo.",
+      "emailInvalid": "Por favor indique un correo válido.",
+      "phoneInvalid": "Por favor indique un número válido.",
+      "phoneRequired": "Por favor indique un número de WhatsApp.",
+      "required": "Por favor elija una opción.",
+      "consentRequired": "Por favor confirme para continuar.",
+      "messageRequired": "Por favor agregue un mensaje breve.",
+      "selectExperience": "Por favor elija al menos una experiencia.",
+      "generic": "Por favor revise este campo."
+    },
+    "consultation": {
+      "propertyLocation": "Ubicación de la propiedad",
+      "propertyLocationPlaceholder": "Por ejemplo, La Fortuna, cerca del Parque Nacional Arenal",
+      "propertyType": "Tipo de propiedad",
+      "types": {
+        "house": "Casa",
+        "villa": "Villa",
+        "condo": "Condominio",
+        "cabin": "Cabaña",
+        "other": "Otro"
+      },
+      "bedrooms": "Número de habitaciones",
+      "rentalStatus": "Situación actual de alquiler",
+      "statuses": {
+        "not-rented": "Aún no se alquila",
+        "self-managed": "Se alquila, la administro yo",
+        "other-manager": "Se alquila, con otro administrador",
+        "new-build": "Obra nueva o en construcción"
+      },
+      "comments": "Comentarios adicionales",
+      "submit": "Solicitar una consulta",
+      "successTitle": "Gracias",
+      "successText": "Recibimos sus datos y le contactaremos pronto para coordinar una conversación."
+    },
+    "contact": {
+      "topic": "¿En qué podemos ayudarle?",
+      "topics": {
+        "stay": "Reservar una estadía",
+        "management": "Administración de propiedades",
+        "concierge": "Conserjería y experiencias",
+        "real-estate": "Bienes raíces",
+        "other": "Otro tema"
+      },
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "successTitle": "Mensaje recibido",
+      "successText": "Gracias por escribirnos. Le responderemos lo antes posible."
+    },
+    "inquiry": {
+      "message": "Mensaje",
+      "submit": "Enviar consulta",
+      "successTitle": "Consulta enviada",
+      "successText": "Gracias. Nos pondremos en contacto pronto.",
+      "defaultMessage": {
+        "rental": "Me interesa hospedarme en {name}. Mis fechas son: ",
+        "listing": "Me gustaría más información sobre {name}.",
+        "experience": "Me gustaría coordinar {name}."
+      }
+    },
+    "concierge": {
+      "experiences": "Experiencias",
+      "experiencesHint": "Seleccione todas las que le interesen.",
+      "guests": "Número de huéspedes",
+      "arrival": "Llegada",
+      "departure": "Salida",
+      "message": "¿Algo que debamos saber?",
+      "messagePlaceholder": "Celebraciones, restricciones alimentarias, el ritmo que prefiere, dónde se hospeda...",
+      "submit": "Enviar solicitud",
+      "successTitle": "Solicitud recibida",
+      "successText": "Revisaremos su solicitud y le responderemos con opciones y detalles confirmados."
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Nosotros y contacto",
+      "title": "Con raíces en <em>La Fortuna</em>",
+      "lede": "Somos una empresa de hospitalidad y administración de propiedades que vive donde trabaja."
+    },
+    "story": {
+      "eyebrow": "Quiénes somos",
+      "title": "Hospitalidad aplicada a casas privadas",
+      "p1": "Natura Homes cuida casas vacacionales en La Fortuna y la zona del Arenal, y a los huéspedes que se hospedan en ellas.",
+      "p2": "Los propietarios nos confían el día a día: anuncios, huéspedes, limpieza, mantenimiento y reportes. Los huéspedes llegan a nosotros por una casa bien cuidada y ayuda para planear sus días.",
+      "p3": "Mantenemos un portafolio enfocado para que cada propiedad reciba la atención que merece, y cada persona que nos llama encuentre a alguien que pueda ayudarle."
+    },
+    "values": {
+      "eyebrow": "Lo que nos guía",
+      "title": "Nuestros valores",
+      "v1": {
+        "title": "Cuidado",
+        "text": "Tratamos cada casa como si fuera nuestra."
+      },
+      "v2": {
+        "title": "Claridad",
+        "text": "Información honesta para propietarios y huéspedes, siempre."
+      },
+      "v3": {
+        "title": "Presencia",
+        "text": "Un equipo local que responde y está presente."
+      },
+      "v4": {
+        "title": "Respeto",
+        "text": "Por las casas, la comunidad y el paisaje que nos rodea."
+      }
+    },
+    "contact": {
+      "eyebrow": "Contacto",
+      "title": "Conversemos",
+      "lede": "Ya sea que planee una estadía o esté pensando en su propiedad, escríbanos. Respondemos personalmente.",
+      "whatsappCta": "Iniciar una conversación",
+      "email": "Correo",
+      "serviceArea": "Zona de servicio",
+      "serviceAreaText": "La Fortuna y alrededores, Costa Rica",
+      "instagramLabel": "Siga a Natura Homes en Instagram",
+      "facebookLabel": "Siga a Natura Homes en Facebook",
+      "social": "Redes sociales"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "eyebrow": "Legal",
+      "title": "Aviso de privacidad",
+      "updated": "Borrador para revisión. Última actualización: por confirmar.",
+      "metaDescription": "Cómo maneja Natura Homes la información personal que usted comparte en este sitio.",
+      "sections": [
+        {
+          "title": "Qué recopilamos",
+          "body": "Cuando utiliza un formulario en este sitio recopilamos los datos que ingresa, como su nombre, correo, teléfono o WhatsApp y su mensaje, junto con la página desde la que lo envió."
+        },
+        {
+          "title": "Cómo lo usamos",
+          "body": "Usamos esta información únicamente para responder a su solicitud y, si se convierte en cliente, para prestarle nuestros servicios. No vendemos su información."
+        },
+        {
+          "title": "Quién la recibe",
+          "body": "Los mensajes llegan a nuestro equipo mediante los servicios de correo o mensajería que utilizamos para operar. Estos proveedores procesan los datos en nuestro nombre."
+        },
+        {
+          "title": "Por cuánto tiempo",
+          "body": "Conservamos la información de las consultas el tiempo necesario para responder y gestionar la relación que resulte, y luego la eliminamos."
+        },
+        {
+          "title": "Sus derechos",
+          "body": "Puede solicitar acceso, corrección o eliminación de su información en cualquier momento. Aplica la Ley 8968 de Protección de la Persona frente al Tratamiento de sus Datos Personales."
+        },
+        {
+          "title": "Contacto",
+          "body": "Para consultas sobre privacidad, contacte a Natura Homes con los datos de nuestra página Nosotros y Contacto."
+        }
+      ]
+    },
+    "terms": {
+      "eyebrow": "Legal",
+      "title": "Términos de uso",
+      "updated": "Borrador para revisión. Última actualización: por confirmar.",
+      "metaDescription": "Términos que aplican al uso del sitio web de Natura Homes.",
+      "sections": [
+        {
+          "title": "Información del sitio",
+          "body": "Procuramos que la información de propiedades y servicios sea precisa, pero los detalles, la disponibilidad y los precios pueden cambiar y solo se confirman por escrito al momento de la reserva u oferta."
+        },
+        {
+          "title": "Reservas",
+          "body": "Las estadías reservadas por plataformas de terceros se rigen por los términos de esa plataforma. Las reservas directas se rigen por el acuerdo entregado al momento de reservar."
+        },
+        {
+          "title": "Bienes raíces",
+          "body": "La información inmobiliaria es de referencia y no constituye una oferta. Los compradores deben realizar su propia debida diligencia."
+        },
+        {
+          "title": "Propiedad intelectual",
+          "body": "El contenido y la fotografía de este sitio pertenecen a Natura Homes o se usan con autorización."
+        },
+        {
+          "title": "Contacto",
+          "body": "Puede enviar preguntas sobre estos términos desde nuestra página Nosotros y Contacto."
+        }
+      ]
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "No encontramos esta página",
+      "text": "Puede que se haya movido o que el enlace no sea correcto.",
+      "home": "Volver al inicio",
+      "stays": "Ver casas"
+    },
+    "generic": {
+      "eyebrow": "Algo salió mal",
+      "title": "No pudimos cargar esta página",
+      "text": "Inténtelo de nuevo. Si el problema continúa, contáctenos por WhatsApp.",
+      "retry": "Intentar de nuevo",
+      "home": "Volver al inicio"
+    }
+  }
+}
