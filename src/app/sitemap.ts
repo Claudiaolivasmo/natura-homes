@@ -3,6 +3,8 @@ import { routing } from "@/i18n/routing";
 import { getExperiences, getRealEstateListings, getVacationRentals } from "@/lib/content";
 import { absoluteUrl, localizedPath } from "@/lib/seo";
 
+export const dynamic = "force-static";
+
 const staticPaths = ["/", "/property-management", "/vacation-rentals", "/concierge", "/real-estate", "/about-contact", "/privacy", "/terms"];
 
 function entry(path: string, priority: number): MetadataRoute.Sitemap[number][] {

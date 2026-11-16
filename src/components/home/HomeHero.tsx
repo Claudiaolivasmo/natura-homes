@@ -1,15 +1,14 @@
 import { getTranslations } from "next-intl/server";
 import { ArrowDown } from "lucide-react";
 import { editorial } from "@/config/media";
+import { heroMediaConfig } from "@/config/hero-media";
 import { HeroMedia } from "@/components/home/HeroMedia";
-import { readHeroMedia } from "@/lib/hero-storage";
 import { ButtonLink } from "@/components/ui/Button";
 import type { Locale } from "@/i18n/routing";
 
 export async function HomeHero({ locale }: { locale: Locale }) {
   const t = await getTranslations({ locale, namespace: "home.hero" });
-  const heroConfig = await readHeroMedia();
-  console.log("NATURA HERO CONFIG:", heroConfig);
+  const heroConfig = heroMediaConfig;
 
   return (
     <section className="on-dark relative flex min-h-[100svh] flex-col overflow-hidden bg-ink text-ivory">
