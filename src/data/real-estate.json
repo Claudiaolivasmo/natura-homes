@@ -123,16 +123,6 @@
         }
     }
     ],
-
-    "videos": [
-        {
-            "src": "/videos/properties/Alto de Monterrey/01.mp4",
-            "alt": {
-                "es": "Video de la propiedad en Monterrey de San Carlos, Costa Rica",
-                "en": "Video of the property in Monterrey de San Carlos, Costa Rica"
-            }
-        }
-    ],
     "seo": {
       "title": {
         "es": "Tu Refugio Natural en Monterrey de San Carlos | Natura Homes",

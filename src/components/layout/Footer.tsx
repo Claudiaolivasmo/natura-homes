@@ -8,6 +8,7 @@ import type { Locale } from "@/i18n/routing";
 import { Logo } from "./Logo";
 import { LanguageSwitcher } from "@/components/navigation/LanguageSwitcher";
 import { WhatsAppIcon } from "@/components/whatsapp/WhatsAppIcon";
+import { withBasePath } from "@/config/paths";
 
 export async function Footer({ locale }: { locale: Locale }) {
   const t = await getTranslations({ locale, namespace: "footer" });
@@ -23,7 +24,7 @@ export async function Footer({ locale }: { locale: Locale }) {
           <div className="text-center">
             <div className="flex flex-col items-center">
               <Image
-                src="/branding/natura-homes-symbol.png"
+                src={withBasePath("/branding/natura-homes-symbol.png")}
                 alt=""
                 aria-hidden="true"
                 width={520}

@@ -14,6 +14,7 @@ import { RevealObserver } from "@/components/animations/RevealObserver";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { organizationSchema } from "@/lib/structured-data";
 import { asLocale } from "@/lib/i18n-content";
+import { withBasePath } from "@/config/paths";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -44,17 +45,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
   return {
-    metadataBase: new URL(siteConfig.url),
+    metadataBase: new URL(withBasePath("/"), siteConfig.url),
     title: { default: t("defaultTitle"), template: `%s | ${siteConfig.name}` },
     description: t("defaultDescription"),
     applicationName: siteConfig.name,
     formatDetection: { telephone: false },
     icons: {
       icon: [
-        { url: "/branding/favicon-dark-16x16.png", sizes: "16x16", type: "image/png" },
-        { url: "/branding/favicon-dark-32x32.png", sizes: "32x32", type: "image/png" },
+        { url: withBasePath("/branding/favicon-dark-16x16.png"), sizes: "16x16", type: "image/png" },
+        { url: withBasePath("/branding/favicon-dark-32x32.png"), sizes: "32x32", type: "image/png" },
       ],
-      apple: [{ url: "/branding/favicon-dark-180x180.png", sizes: "180x180", type: "image/png" }],
+      apple: [{ url: withBasePath("/branding/favicon-dark-180x180.png"), sizes: "180x180", type: "image/png" }],
     },
   };
 }

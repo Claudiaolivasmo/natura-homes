@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import type { HeroMediaConfig } from "@/config/hero-media";
+import { withBasePath } from "@/config/paths";
 
 function videoType(src: string) {
   return src.split(/[?#]/, 1)[0]?.toLowerCase().endsWith(".webm") ? "video/webm" : "video/mp4";
@@ -16,9 +17,12 @@ export function HeroMedia({ config, fallback = "" }: { config: HeroMediaConfig; 
     update(); motion.addEventListener("change", update);
     return () => motion.removeEventListener("change", update);
   }, []);
-  const desktopImage = config.desktopImage || config.poster || fallback;
-  const mobileImage = config.mobileImage || desktopImage;
-  const video = config.mode === "video" && allowVideo && !failed && !!config.desktopVideo;
+  const desktopImage = withBasePath(config.desktopImage || config.poster || fallback);
+  const mobileImage = withBasePath(config.mobileImage || config.desktopImage || config.poster || fallback);
+  const desktopVideo = withBasePath(config.desktopVideo);
+  const mobileVideo = withBasePath(config.mobileVideo);
+  const poster = withBasePath(config.poster || desktopImage);
+  const video = config.mode === "video" && allowVideo && !failed && !!desktopVideo;
   return (
     <div aria-hidden="true" className="absolute inset-0 overflow-hidden bg-ink">
       {desktopImage && <picture>
@@ -26,11 +30,11 @@ export function HeroMedia({ config, fallback = "" }: { config: HeroMediaConfig; 
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={desktopImage} alt="" fetchPriority="high" className="absolute inset-0 h-full w-full object-cover" />
       </picture>}
-      {video && <video key={config.desktopVideo + config.mobileVideo} className="absolute inset-0 h-full w-full object-cover" autoPlay muted loop playsInline preload="none" poster={config.poster || desktopImage || undefined} controls={false} onError={() => setFailed(true)}>
-        {config.mobileVideo && <>
-          <source src={config.mobileVideo} media="(max-width: 767px)" type={videoType(config.mobileVideo)} />
+      {video && <video key={desktopVideo + mobileVideo} className="absolute inset-0 h-full w-full object-cover" autoPlay muted loop playsInline preload="none" poster={poster || undefined} controls={false} onError={() => setFailed(true)}>
+        {mobileVideo && <>
+          <source src={mobileVideo} media="(max-width: 767px)" type={videoType(mobileVideo)} />
         </>}
-        <source src={config.desktopVideo} type={videoType(config.desktopVideo)} />
+        <source src={desktopVideo} type={videoType(desktopVideo)} />
       </video>}
     </div>
   );

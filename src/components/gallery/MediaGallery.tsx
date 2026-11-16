@@ -7,6 +7,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { ChevronLeft, ChevronRight, Expand, Play, X } from "lucide-react";
 import type { ImageAsset, VideoAsset } from "@/schemas/content";
 import { localize } from "@/lib/i18n-content";
+import { withBasePath } from "@/config/paths";
 
 type MediaItem =
   | { kind: "image"; src: string; alt: string }
@@ -66,7 +67,7 @@ export function MediaGallery({ images, videos, title }: MediaGalleryProps) {
               >
                 {item.kind === "image" ? (
                   <Image
-                    src={item.src}
+                    src={withBasePath(item.src)}
                     alt=""
                     fill
                     sizes={i === 0 ? "(min-width: 768px) 66vw, 100vw" : "(min-width: 768px) 33vw, 50vw"}
@@ -74,7 +75,7 @@ export function MediaGallery({ images, videos, title }: MediaGalleryProps) {
                   />
                 ) : (
                   <span className="absolute inset-0 flex items-center justify-center bg-ink">
-                    {item.poster && <Image src={item.poster} alt="" fill sizes="33vw" className="object-cover opacity-70" />}
+                    {item.poster && <Image src={withBasePath(item.poster)} alt="" fill sizes="33vw" className="object-cover opacity-70" />}
                     <span className="relative flex size-14 items-center justify-center rounded-full border border-ivory/60 text-ivory">
                       <Play aria-hidden="true" className="ml-0.5 size-5" strokeWidth={1.5} />
                     </span>
@@ -199,9 +200,9 @@ function Lightbox({
       <div className="relative flex min-h-0 flex-1 items-center justify-center px-2 sm:px-20" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
         <div className="relative size-full">
           {item.kind === "image" ? (
-            <Image key={item.src} src={item.src} alt={item.alt} fill sizes="100vw" className="object-contain" priority />
+            <Image key={item.src} src={withBasePath(item.src)} alt={item.alt} fill sizes="100vw" className="object-contain" priority />
           ) : (
-            <video key={item.src} src={item.src} poster={item.poster} controls playsInline preload="metadata" className="absolute inset-0 m-auto max-h-full max-w-full" aria-label={item.title} />
+            <video key={item.src} src={withBasePath(item.src)} poster={item.poster ? withBasePath(item.poster) : undefined} controls playsInline preload="metadata" className="absolute inset-0 m-auto max-h-full max-w-full" aria-label={item.title} />
           )}
         </div>
         {total > 1 && (
@@ -216,7 +217,7 @@ function Lightbox({
         )}
         {/* Preload the next image for snappy navigation */}
         {neighbour?.kind === "image" && (
-          <Image src={neighbour.src} alt="" width={16} height={16} sizes="100vw" className="pointer-events-none absolute size-px opacity-0" aria-hidden="true" />
+          <Image src={withBasePath(neighbour.src)} alt="" width={16} height={16} sizes="100vw" className="pointer-events-none absolute size-px opacity-0" aria-hidden="true" />
         )}
       </div>
 
@@ -232,7 +233,7 @@ function Lightbox({
                 className={`relative block h-[4.5rem] w-24 overflow-hidden transition-opacity duration-300 ${i === index ? "opacity-100 ring-1 ring-ivory" : "opacity-45 hover:opacity-80"}`}
               >
                 {m.kind === "image" ? (
-                  <Image src={m.src} alt="" fill sizes="96px" className="object-cover" />
+                  <Image src={withBasePath(m.src)} alt="" fill sizes="96px" className="object-cover" />
                 ) : (
                   <span className="flex size-full items-center justify-center bg-ink-soft">
                     <Play aria-hidden="true" className="size-4" strokeWidth={1.5} />

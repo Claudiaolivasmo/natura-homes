@@ -1,4 +1,6 @@
-// Catches requests that fall outside any locale (rare, since the proxy adds one).
+import Link from "next/link";
+
+// Catches requests that fall outside any locale.
 export default function GlobalNotFound() {
   return (
     <html lang="en">
@@ -6,7 +8,7 @@ export default function GlobalNotFound() {
         <main style={{ textAlign: "center", padding: "2rem" }}>
           <p style={{ letterSpacing: "0.2em", fontSize: 12, textTransform: "uppercase" }}>Natura Homes</p>
           <h1 style={{ fontFamily: "Georgia, serif", fontWeight: 400, fontSize: 40, margin: "1rem 0" }}>Page not found</h1>
-          <a href="/en" style={{ color: "#1A2E35" }}>Return home</a>
+          <Link href="/en" style={{ color: "#1A2E35" }}>Return home</Link>
         </main>
       </body>
     </html>

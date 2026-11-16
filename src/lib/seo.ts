@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
+import { withBasePath } from "@/config/paths";
 import { routing, type Locale } from "@/i18n/routing";
 
 export function absoluteUrl(path: string) {
-  return `${siteConfig.url}${path.startsWith("/") ? path : `/${path}`}`;
+  const withLeadingSlash = path.startsWith("/") ? path : `/${path}`;
+  return `${siteConfig.url}${withBasePath(withLeadingSlash)}`;
 }
 
 /** Path without locale, e.g. "/vacation-rentals/volterra-house" or "/" */

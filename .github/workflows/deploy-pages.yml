@@ -17,6 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_BASE_PATH: ${{ vars.PAGES_BASE_PATH || '/natura-homes' }}
+      NEXT_PUBLIC_SITE_URL: ${{ vars.PAGES_SITE_URL || 'https://claudiaolivasmo.github.io' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

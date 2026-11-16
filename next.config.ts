@@ -2,6 +2,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
+import { basePath } from "./src/config/paths";
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const projectRoot = path.dirname(fileURLToPath(import.meta.url));
@@ -9,6 +10,7 @@ const projectRoot = path.dirname(fileURLToPath(import.meta.url));
 const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
+  ...(basePath ? { basePath } : {}),
   poweredByHeader: false,
   reactStrictMode: true,
   turbopack: { root: projectRoot },

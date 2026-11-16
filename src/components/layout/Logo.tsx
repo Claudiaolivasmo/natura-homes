@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { siteConfig } from "@/config/site";
+import { withBasePath } from "@/config/paths";
 
 /**
  * Uses the supplied `natura-homes-logo` file once configured in
@@ -9,7 +10,7 @@ import { siteConfig } from "@/config/site";
 export function Logo({ variant = "dark", className = "" }: { variant?: "dark" | "light"; className?: string }) {
   const logo = siteConfig.logo;
   if (logo) {
-    const src = variant === "light" && logo.srcLight ? logo.srcLight : logo.src;
+    const src = withBasePath(variant === "light" && logo.srcLight ? logo.srcLight : logo.src);
     return (
       <Image
         src={src}

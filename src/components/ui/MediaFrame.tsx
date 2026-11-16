@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { ImageAsset } from "@/schemas/content";
 import { localize } from "@/lib/i18n-content";
+import { withBasePath } from "@/config/paths";
 
 interface MediaFrameProps {
   image: ImageAsset | null | undefined;
@@ -40,7 +41,7 @@ export function MediaFrame({ image, locale, ratio = "4 / 5", sizes, priority, cl
   return (
     <div className={`${frameClass} bg-sand`} style={frameStyle}>
       <Image
-        src={image.src}
+        src={withBasePath(image.src)}
         alt={localize(image.alt, locale)}
         fill
         sizes={sizes}

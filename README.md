@@ -26,10 +26,18 @@ The build outputs a static `out/` directory ready for GitHub Pages. For a local 
 
 1. Push the project to GitHub.
 2. In the repository, open Settings → Pages.
-3. Source: Deploy from a branch.
-4. Branch: `gh-pages` and folder: `/ (root)`.
-5. Use GitHub Actions workflow to publish the generated `out/` folder automatically.
-6. Set the custom domain in GitHub Pages and configure DNS in your registrar.
+3. Set the source to **GitHub Actions**.
+4. The workflow publishes the generated `out/` folder on pushes to `main`.
+5. The default Pages path is `/natura-homes`; the workflow can override it with repository variables.
+
+The workflow defaults to:
+
+```text
+PAGES_BASE_PATH=/natura-homes
+PAGES_SITE_URL=https://claudiaolivasmo.github.io
+```
+
+`PAGES_SITE_URL` is the origin only; the configured base path is added automatically. To use a custom domain at the site root, set repository variables `PAGES_BASE_PATH` to `/` and `PAGES_SITE_URL` to the custom-domain origin (for example `https://www.naturahomes.cr`). The base-path setting is build-time only.
 
 ## Required environment variables
 
@@ -37,6 +45,7 @@ Create `.env.local` from `.env.example` and replace the placeholder Formspree ID
 
 ```bash
 NEXT_PUBLIC_SITE_URL=https://www.naturahomes.cr
+NEXT_PUBLIC_BASE_PATH=
 NEXT_PUBLIC_FORMSPREE_CONTACT_ID=YOUR_CONTACT_FORM_ID
 NEXT_PUBLIC_FORMSPREE_CONSULTATION_ID=YOUR_CONSULTATION_FORM_ID
 NEXT_PUBLIC_FORMSPREE_CONCIERGE_ID=YOUR_CONCIERGE_FORM_ID
@@ -48,8 +57,12 @@ Do not add any server-only secrets or admin credentials to the frontend build.
 ## Static export architecture
 
 - `next.config.ts` uses `output: "export"` and `trailingSlash: true` for GitHub Pages compatibility.
+- `NEXT_PUBLIC_BASE_PATH` selects the deployment path at build time. It is empty by default for local development and custom-domain roots; GitHub Actions defaults it to `/natura-homes`.
+- Next.js applies `basePath` to framework CSS/JavaScript chunks and `next/link` navigation. Public images, logos, video, posters, and favicon URLs use a shared path helper.
+- `assetPrefix` is intentionally unset; this site serves its Next.js assets from the same origin, not a separate CDN.
 - Pages are prerendered as static HTML at build time.
 - Locale-specific routes remain under `/en` and `/es`.
+- Visiting the deployment root redirects to `/en/`; the Spanish locale remains directly available at `/es/`.
 - Forms submit directly to the relevant Formspree endpoint without server APIs or Next.js route handlers.
 - Hero media is managed manually by editing `data/hero-media.json`; no admin backend or cookies are required.
 
