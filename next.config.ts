@@ -14,6 +14,7 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   turbopack: { root: projectRoot },
+  experimental: { agentUpgrade: "security" },
   images: {
     unoptimized: true,
     formats: ["image/avif", "image/webp"],
