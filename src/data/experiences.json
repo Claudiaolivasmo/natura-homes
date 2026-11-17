@@ -176,13 +176,6 @@
     "availability": null,
     "images": [
       {
-        "src": "/images/experiences/private-transportation/van.webp",
-        "alt": {
-          "en": "Private transportation van in La Fortuna, Costa Rica",
-          "es": "Van de transporte privado en La Fortuna, Costa Rica" 
-        }
-      },
-      {
         "src": "/images/experiences/private-transportation/van-2.webp",
         "alt": {
           "en": "Interior of a private transportation van in La Fortuna, Costa Rica",
