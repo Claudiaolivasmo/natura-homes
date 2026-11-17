@@ -82,7 +82,6 @@ export async function HarmonyOverview({ locale: rawLocale }: { locale: string })
               <ImagePlaceholder
                 src="/images/experiences/harmony/harmony-overview.webp"
                 alt={t("overview.imageAlt")}
-                label={t("imagePlaceholder")}
                 priority
                 ratio="5 / 4"
               />
@@ -123,7 +122,6 @@ export async function HarmonyOverview({ locale: rawLocale }: { locale: string })
                     <ImagePlaceholder
                       src={space.image}
                       alt={t(`spaces.${space.slug}.imageAlt`)}
-                      label={t("imagePlaceholder")}
                       ratio="4 / 5"
                     />
                   </div>
