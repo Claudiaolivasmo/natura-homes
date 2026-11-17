@@ -48,7 +48,10 @@ export function ExperienceCard({ experience, ratio = "3 / 4", tone = "sand", hea
       {experience.image && <MediaFrame image={experience.image} locale={locale} ratio={ratio} tone={tone} sizes={sizes} />}
       {showCategory && <p className={`eyebrow mt-5 ${onDark ? "text-sage" : "text-mist"}`}>{t(`categories.${experience.category}`)}</p>}
       <H className={`${showCategory ? "mt-2" : "mt-5"} text-display-sm ${onDark ? "text-ivory" : "text-ink"}`}>
-        <Link href={`/concierge/${experience.slug}`} className="after:absolute after:inset-0 after:content-['']">
+        <Link
+          href={experience.slug === "harmony" ? "/experiences/harmony" : `/concierge/${experience.slug}`}
+          className="after:absolute after:inset-0 after:content-['']"
+        >
           {experience.title}
         </Link>
       </H>

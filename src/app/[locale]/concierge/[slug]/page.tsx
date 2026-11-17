@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { getExperience, getExperiences, getRelatedExperiences } from "@/lib/content";
@@ -47,6 +47,7 @@ export default async function ExperiencePage({ params }: { params: Promise<Param
   const locale = asLocale(l);
   setRequestLocale(locale);
   const exp = await getExperience(slug);
+  if (exp?.slug === "harmony") redirect("/experiences/harmony");
   if (!exp) notFound();
 
   const t = await getTranslations({ locale, namespace: "concierge" });

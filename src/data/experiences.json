@@ -306,5 +306,62 @@
     "images": [],
     "videos": [],
     "seo": null
+  },
+  {
+    "id": "harmony",
+    "slug": "harmony",
+    "published": true,
+    "featured": true,
+    "category": "work-gather",
+    "title": {
+      "en": "Harmony – Work Beyond the Ordinary",
+      "es": "Harmony – Trabajar más allá de lo convencional"
+    },
+    "summary": {
+      "en": "Private workspaces and a versatile gathering room in La Fortuna.",
+      "es": "Espacios privados de trabajo y una sala versátil para reunirse en La Fortuna."
+    },
+    "description": {
+      "en": "Thoughtfully designed spaces where you can work independently, meet privately, or bring people together for professional and creative experiences.",
+      "es": "Espacios diseñados cuidadosamente para trabajar de manera independiente, reunirse en privado o compartir experiencias profesionales y creativas."
+    },
+    "duration": null,
+    "location": "La Fortuna, Costa Rica",
+    "inclusions": [],
+    "exclusions": [],
+    "price": null,
+    "availability": null,
+    "images": [
+      {
+        "src": "/images/experiences/harmony/harmony-overview.webp",
+        "alt": {
+          "en": "Harmony workspaces and gathering room in La Fortuna",
+          "es": "Espacios de trabajo y sala de reuniones de Harmony en La Fortuna"
+        }
+      },
+      {
+        "src": "/images/experiences/harmony/kairos-01.webp",
+        "alt": {
+          "en": "Kairos private workspace",
+          "es": "Espacio de trabajo privado Kairos"
+        }
+      },
+      {
+        "src": "/images/experiences/harmony/prisma-01.webp",
+        "alt": {
+          "en": "Prisma private workspace",
+          "es": "Espacio de trabajo privado Prisma"
+        }
+      },
+      {
+        "src": "/images/experiences/harmony/agora-01.webp",
+        "alt": {
+          "en": "Agora multipurpose gathering room",
+          "es": "Sala multiusos Ágora"
+        }
+      }
+    ],
+    "videos": [],
+    "seo": null
   }
 ]

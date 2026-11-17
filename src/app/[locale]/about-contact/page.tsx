@@ -25,14 +25,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 const values = ["v1", "v2", "v3", "v4"] as const;
 
-export default async function AboutContactPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function AboutContactPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const locale = asLocale((await params).locale);
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "about" });
   const tNav = await getTranslations({ locale, namespace: "nav" });
   const { email, whatsappDisplay, whatsappUrl } = siteConfig.contact;
   const { instagram, instagramHandle, facebook, facebookHandle } = siteConfig.social;
-
   return (
     <>
       <PageHero

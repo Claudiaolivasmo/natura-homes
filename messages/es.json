@@ -481,7 +481,8 @@
       "private-dining": "Gastronomía privada",
       "transportation": "Transporte",
       "romantic": "Experiencias románticas",
-      "itineraries": "Itinerarios personalizados"
+      "itineraries": "Itinerarios personalizados",
+      "work-gather": "Trabajo y encuentros"
     },
     "categoryText": {
       "adventure-nature": "El volcán, los ríos, los bosques y la fauna que hacen única a la región.",
@@ -489,7 +490,8 @@
       "private-dining": "Buena comida preparada en casa, a su ritmo.",
       "transportation": "Traslados y conductores confiables para cada tramo del viaje.",
       "romantic": "Celebraciones y momentos tranquilos, preparados con cuidado.",
-      "itineraries": "Un plan para sus días, pensado para usted."
+      "itineraries": "Un plan para sus días, pensado para usted.",
+      "work-gather": "Oficinas privadas, espacios para reuniones profesionales y una sala flexible para talleres y encuentros."
     },
     "hero": {
       "eyebrow": "Conserjería y experiencias",
@@ -551,6 +553,133 @@
     "backToConcierge": "Volver a Concierge",
     "allExperiences": "Todas las experiencias",
     "noExperiences": "No hay experiencias disponibles"
+  },
+  "harmony": {
+    "meta": {
+      "overviewTitle": "Harmony – Trabajar más allá de lo convencional",
+      "overviewDescription": "Descubra espacios privados de trabajo y una sala versátil para reunirse en La Fortuna, Costa Rica.",
+      "spaceDescription": "{name}, un espacio privado y flexible de Harmony en La Fortuna, Costa Rica."
+    },
+    "imagePlaceholder": "Imagen ilustrativa provisional · Próximamente fotografías de Harmony",
+    "overview": {
+      "eyebrow": "Trabajo y encuentros · La Fortuna",
+      "title": "Harmony",
+      "subtitle": "Trabajar más allá de lo convencional",
+      "imageAlt": "Ilustración de un espacio tranquilo y flexible para trabajar y reunirse",
+      "intro": "¿Busca un lugar tranquilo para trabajar, un espacio privado para una reunión o un entorno inspirador para organizar un taller?\n\nHarmony ofrece espacios cuidadosamente diseñados en La Fortuna para trabajar de manera independiente, conectar con otras personas o reunir a un grupo en experiencias profesionales y creativas.\n\nDesde oficinas privadas hasta espacios versátiles para eventos, descubra otra forma de trabajar y reunirse.",
+      "spacesTitle": "Un lugar para trabajar. Un espacio para reunirse.",
+      "spacesLede": "Tres espacios distintos, listos para acompañar su jornada de trabajo o encuentro.",
+      "exploreSpace": "Conocer este espacio",
+      "ctaTitle": "Haga espacio para lo que viene.",
+      "ctaText": "Cuéntenos qué tiene en mente. Le ayudaremos a consultar la disponibilidad del espacio de Harmony adecuado para sus planes.",
+      "exploreButton": "Explorar los espacios",
+      "inquiryMessage": "Quisiera consultar la disponibilidad de Harmony."
+    },
+    "common": {
+      "category": "Trabajo y encuentros",
+      "locationLabel": "Ubicación",
+      "location": "La Fortuna, Costa Rica",
+      "activitiesTitle": "Un espacio para",
+      "professionalTitle": "Actividades profesionales y educativas",
+      "socialTitle": "Encuentros sociales y privados",
+      "gallery": "Un vistazo más de cerca",
+      "pricingEyebrow": "Opciones claras y flexibles",
+      "pricingTitle": "Tarifas de alquiler",
+      "pricingCaption": "Tarifas de alquiler de los espacios Harmony en colones costarricenses.",
+      "rentalOption": "Opción de alquiler",
+      "schedule": "Horario",
+      "price": "Precio (CRC)",
+      "pricingOptions": {
+        "hourly": "Por hora",
+        "halfDay": "Media jornada (4 horas)",
+        "fullDayWorkspace": "Día completo (8 horas)",
+        "morningSession": "Sesión de mañana",
+        "afternoonSession": "Sesión de tarde",
+        "fullDayAgora": "Día completo",
+        "additionalHour": "Hora adicional"
+      },
+      "pricingSchedules": {
+        "morning": "8:00 a. m. – 12:00 p. m.",
+        "afternoon": "1:00 p. m. – 5:00 p. m.",
+        "fullDay": "8:00 a. m. – 5:00 p. m.",
+        "perHour": "Por hora"
+      },
+      "pricingVatNote": "Los precios están sujetos a un 13% de IVA.",
+      "pricingAvailabilityNote": "La disponibilidad debe confirmarse directamente con Harmony y los precios pueden cambiar. El equipo de Concierge de Natura Homes puede ayudarle con consultas y reservas.",
+      "capacityTitle": "Capacidad máxima",
+      "capacityValue": "{count} personas",
+      "amenitiesTitle": "Servicios disponibles",
+      "amenities": {
+        "tablesChairs": "Mesas y sillas para hasta 40 personas",
+        "airConditioning": "Aire acondicionado",
+        "highSpeedInternet": "Internet de alta velocidad",
+        "projectionScreen": "Pantalla de proyección",
+        "soundSystem": "Sistema de sonido, parlantes y micrófonos",
+        "parking": "Estacionamiento para hasta 10 vehículos",
+        "restrooms": "Baños",
+        "supportKitchen": "Cocina de apoyo"
+      },
+      "separateCateringNote": "El servicio de catering y las pausas para café se cotizan por separado.",
+      "availabilityTitle": "Planee su encuentro",
+      "availabilityText": "Comparta sus planes con Natura Homes y le ayudaremos a coordinar una consulta de disponibilidad con Harmony.",
+      "spaceInquiryMessage": "Quisiera consultar la disponibilidad de {name} en Harmony.",
+      "spaceDescriptionTitle": "Diseñado para su forma de trabajar y reunirse",
+      "requestAvailability": "Consultar disponibilidad",
+      "backToHarmony": "Volver a Harmony"
+    },
+    "spaces": {
+      "kairos": {
+        "name": "Kairos",
+        "shortDescription": "Un espacio privado para trabajar individualmente, realizar consultas profesionales, mantener reuniones privadas y recibir citas con clientes.",
+        "description": "Kairos es un espacio privado para trabajar individualmente y conectar cara a cara. Puede utilizarse para consultas profesionales, reuniones privadas o citas con clientes.",
+        "activities": {
+          "individualWork": "Trabajo individual",
+          "privateMeetings": "Reuniones privadas",
+          "consultations": "Consultas y sesiones profesionales",
+          "clientMeetings": "Reuniones con clientes o colegas"
+        },
+        "imageAlt": "Imagen ilustrativa provisional de Kairos, una oficina privada de Harmony",
+        "galleryAlt": "Imagen ilustrativa provisional de un espacio para conversar en privado en Kairos",
+        "galleryAlt2": "Imagen ilustrativa provisional de una sesión de trabajo concentrado en Kairos"
+      },
+      "prisma": {
+        "name": "Prisma",
+        "shortDescription": "Una oficina privada para el trabajo individual, las consultas profesionales, las reuniones privadas y las citas con clientes.",
+        "description": "Prisma ofrece un espacio privado para trabajar de manera independiente y recibir a otras personas para conversar profesionalmente. Es adecuado para consultas, reuniones privadas o citas con clientes.",
+        "activities": {
+          "independentWork": "Trabajo independiente",
+          "privateMeetings": "Reuniones profesionales privadas",
+          "appointments": "Citas con clientes",
+          "sessions": "Sesiones profesionales"
+        },
+        "imageAlt": "Imagen ilustrativa provisional de Prisma, un espacio privado de trabajo en Harmony",
+        "galleryAlt": "Imagen ilustrativa provisional de un espacio de consulta en Prisma",
+        "galleryAlt2": "Imagen ilustrativa provisional de un espacio privado de trabajo en Prisma"
+      },
+      "agora": {
+        "name": "Ágora",
+        "shortDescription": "Un espacio flexible para talleres, actividades profesionales, cenas privadas y celebraciones.",
+        "description": "Más que una sala de reuniones, Ágora es un espacio versátil diseñado para reunir a las personas.\n\nYa sea que planee un taller profesional, un encuentro corporativo, una celebración familiar íntima o una cena privada, Ágora ofrece una alternativa a los salones de eventos convencionales.\n\nUn espacio acogedor donde se comparten ideas, se crean conexiones y se celebran momentos especiales.",
+        "professionalActivities": {
+          "workshops": "Talleres y sesiones de capacitación",
+          "meetings": "Reuniones corporativas y encuentros de equipo",
+          "presentations": "Presentaciones y actividades educativas",
+          "networking": "Eventos de networking",
+          "creative": "Talleres creativos y actividades grupales"
+        },
+        "socialActivities": {
+          "family": "Reuniones familiares",
+          "dinners": "Cenas privadas",
+          "birthdays": "Celebraciones de cumpleaños",
+          "celebrations": "Celebraciones íntimas y ocasiones especiales",
+          "privateEvents": "Eventos privados pequeños",
+          "community": "Encuentros comunitarios"
+        },
+        "imageAlt": "Imagen ilustrativa provisional de Ágora, el espacio flexible de encuentros de Harmony",
+        "galleryAlt": "Imagen ilustrativa provisional de un encuentro privado en Ágora",
+        "galleryAlt2": "Imagen ilustrativa provisional de una cena privada en Ágora"
+      }
+    }
   },
   "forms": {
     "optional": "opcional",

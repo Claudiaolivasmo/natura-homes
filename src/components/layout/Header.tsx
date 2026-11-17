@@ -10,6 +10,7 @@ import { MobileMenu } from "@/components/navigation/MobileMenu";
 import { buttonClasses } from "@/components/ui/Button";
 
 export function isActive(pathname: string, href: string) {
+  if (href === "/concierge" && pathname.startsWith("/experiences/harmony")) return true;
   return href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(`${href}/`);
 }
 
@@ -19,7 +20,7 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   // Pages that open with a full-bleed dark hero get a transparent header.
-  const internalOverlay = pathname === "/concierge" || pathname === "/vacation-rentals" || pathname === "/property-management" || pathname === "/real-estate" || pathname === "/about-contact";
+  const internalOverlay = pathname === "/concierge" || pathname === "/experiences/harmony" || pathname === "/vacation-rentals" || pathname === "/property-management" || pathname === "/real-estate" || pathname === "/about-contact";
   const overlay = pathname === "/" || internalOverlay;
   const transparent = overlay && !scrolled;
 

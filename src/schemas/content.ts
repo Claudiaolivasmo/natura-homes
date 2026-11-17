@@ -124,6 +124,7 @@ export const experienceCategories = [
   "transportation",
   "romantic",
   "itineraries",
+  "work-gather",
 ] as const;
 
 /** Optional future operator offerings. Existing experiences.json entries remain valid. */

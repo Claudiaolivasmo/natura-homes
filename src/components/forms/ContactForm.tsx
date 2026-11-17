@@ -1,6 +1,7 @@
 "use client";
 
-import { useId } from "react";
+import { Suspense, useId } from "react";
+import { useSearchParams } from "next/navigation";
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
@@ -12,6 +13,34 @@ import { ConsentCheckbox, Field, fieldA11y, Honeypot, SubmitRow, SuccessPanel, u
 const topics = ["stay", "management", "concierge", "real-estate", "other"] as const;
 
 export function ContactForm() {
+  return (
+    <Suspense fallback={<ContactFormFields />}>
+      <QueryPrefilledContactForm />
+    </Suspense>
+  );
+}
+
+function QueryPrefilledContactForm() {
+  const searchParams = useSearchParams();
+  const message = searchParams.get("message")?.slice(0, 1000) ?? "";
+  const defaultTopic = searchParams.get("topic") === "concierge" ? "concierge" : undefined;
+
+  return (
+    <ContactFormFields
+      key={`${defaultTopic ?? ""}:${message}`}
+      defaultTopic={defaultTopic}
+      initialMessage={message}
+    />
+  );
+}
+
+function ContactFormFields({
+  defaultTopic,
+  initialMessage = "",
+}: {
+  defaultTopic?: ContactValues["topic"];
+  initialMessage?: string;
+}) {
   const t = useTranslations("forms");
   const tc = useTranslations("forms.contact");
   const err = useErrorText();
@@ -21,7 +50,15 @@ export function ContactForm() {
 
   const { register, control, handleSubmit, reset, formState: { errors } } = useForm<ContactValues>({
     resolver: zodResolver(clientSchemas.contact),
-    defaultValues: { kind: "contact", name: "", email: "", whatsapp: "", message: "", consent: false },
+    defaultValues: {
+      kind: "contact",
+      name: "",
+      email: "",
+      whatsapp: "",
+      message: initialMessage,
+      consent: false,
+      ...(defaultTopic ? { topic: defaultTopic } : {}),
+    },
     mode: "onTouched",
   });
 
@@ -70,7 +107,7 @@ export function ContactForm() {
         />
       </Field>
       <Field id={id("topic")} label={tc("topic")} required error={e.topic}>
-        <select className="field-input" defaultValue="" {...register("topic")} {...fieldA11y(id("topic"), e.topic)}>
+        <select className="field-input" defaultValue={defaultTopic ?? ""} {...register("topic")} {...fieldA11y(id("topic"), e.topic)}>
           <option value="" disabled>{t("select")}</option>
           {topics.map((v) => <option key={v} value={v}>{tc(`topics.${v}`)}</option>)}
         </select>

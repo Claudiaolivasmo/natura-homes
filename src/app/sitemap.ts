@@ -5,7 +5,10 @@ import { absoluteUrl, localizedPath } from "@/lib/seo";
 
 export const dynamic = "force-static";
 
-const staticPaths = ["/", "/property-management", "/vacation-rentals", "/concierge", "/real-estate", "/about-contact", "/privacy", "/terms"];
+const staticPaths = [
+  "/", "/property-management", "/vacation-rentals", "/concierge", "/real-estate", "/about-contact", "/privacy", "/terms",
+  "/experiences/harmony", "/experiences/harmony/kairos", "/experiences/harmony/prisma", "/experiences/harmony/agora",
+];
 
 function entry(path: string, priority: number): MetadataRoute.Sitemap[number][] {
   const languages = Object.fromEntries(
@@ -25,7 +28,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     ...staticPaths.flatMap((p) => entry(p, p === "/" ? 1 : p.startsWith("/privacy") || p.startsWith("/terms") ? 0.2 : 0.8)),
     ...rentals.flatMap((r) => entry(`/vacation-rentals/${r.slug}`, 0.7)),
-    ...experiences.flatMap((e) => entry(`/concierge/${e.slug}`, 0.6)),
+    ...experiences.filter((e) => e.slug !== "harmony").flatMap((e) => entry(`/concierge/${e.slug}`, 0.6)),
     ...listings.flatMap((l) => entry(`/real-estate/${l.slug}`, l.status === "sold" ? 0.3 : 0.6)),
   ];
 }
